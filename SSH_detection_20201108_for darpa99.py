@@ -59,8 +59,8 @@ def loading_dataset(): ## After loading csv file, Pandas Data Frameset Generatio
     # log_count_total_connect  avg_count_connect  log_avg_count_connect  transmit_speed_BPS
     # log_transmit_speed_BPS   LABEL
 
-    df = pd.read_csv('session_output_total(except tuesday)_except UNKNOWN.csv', index_col=0)
-    df_compare = pd.read_csv('session_output_tue(시간조정)_except UNKNOWN.csv', index_col=0)
+    df = pd.read_csv('training dataset.csv', index_col=0)
+    df_compare = pd.read_csv('evaluation dataset.csv', index_col=0)
 
     X = df[["log_count_total_connect", "log_cs_byte", "log_transmit_speed_BPS","log_count_connect_IP", "log_avg_count_connect", "Business.time"]]
     Y = df[["LABEL"]]
