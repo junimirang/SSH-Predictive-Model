@@ -1,0 +1,1901 @@
+no , model , rate
+1 , Random Forest Model Accuracy Rate (n=100): , 0.9994329705798967
+1 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991058382221447
+1 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990840293982945
+1 , Detection Rate of Compare DATA(RF): , 0.993934061863308
+1 , Detection Rate of Compare DATA(DT): , 0.9949990739025746
+1 , Detection Rate of Compare DATA(Hybrid): , 0.9949759214669384
+1 , Total Detection Rate(RF): , 0.9760820045558086
+1 , Total Detection Rate(DT): , 0.9601366742596811
+1 , Total Detection Rate(Hybrid): , 0.9601366742596811
+1 , SSH Detection Rate(RF): , 0.8125
+1 , SSH Detection Rate(DT): , 1.0
+1 , SSH Detection Rate(Hybrid): , 1.0
+1 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+1 , False Rate of total detection(RF): , 0.9817767653758542
+1 , False Rate of total detection(DT): , 0.9817767653758542
+1 , False Rate of total detection(Hybrid): , 0.9817767653758542
+1 , False Positive Rate of total detection(RF): , 0.02088167053364269
+1 , False Positive Rate of total detection(DT): , 0.04060324825986079
+1 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+2 , Random Forest Model Accuracy Rate (n=100): , 0.9997601029376486
+2 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+2 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993021176367959
+2 , Detection Rate of Compare DATA(RF): , 0.9938877569920356
+2 , Detection Rate of Compare DATA(DT): , 0.9951148360807557
+2 , Detection Rate of Compare DATA(Hybrid): , 0.9951379885163919
+2 , Total Detection Rate(RF): , 0.9726651480637813
+2 , Total Detection Rate(DT): , 0.9681093394077449
+2 , Total Detection Rate(Hybrid): , 0.9669703872437357
+2 , SSH Detection Rate(RF): , 0.9375
+2 , SSH Detection Rate(DT): , 1.0
+2 , SSH Detection Rate(Hybrid): , 1.0
+2 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0625
+2 , False Rate of total detection(RF): , 0.9817767653758542
+2 , False Rate of total detection(DT): , 0.9817767653758542
+2 , False Rate of total detection(Hybrid): , 0.9817767653758542
+2 , False Positive Rate of total detection(RF): , 0.02668213457076566
+2 , False Positive Rate of total detection(DT): , 0.03248259860788863
+2 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+3 , Random Forest Model Accuracy Rate (n=100): , 0.9996074411706977
+3 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+3 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992584999890955
+3 , Detection Rate of Compare DATA(RF): , 0.9940498240414891
+3 , Detection Rate of Compare DATA(DT): , 0.9945591776254862
+3 , Detection Rate of Compare DATA(Hybrid): , 0.99453602518985
+3 , Total Detection Rate(RF): , 0.9760820045558086
+3 , Total Detection Rate(DT): , 0.9555808656036446
+3 , Total Detection Rate(Hybrid): , 0.9555808656036446
+3 , SSH Detection Rate(RF): , 0.9375
+3 , SSH Detection Rate(DT): , 1.0
+3 , SSH Detection Rate(Hybrid): , 1.0
+3 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0625
+3 , False Rate of total detection(RF): , 0.9817767653758542
+3 , False Rate of total detection(DT): , 0.9817767653758542
+3 , False Rate of total detection(Hybrid): , 0.9817767653758542
+3 , False Positive Rate of total detection(RF): , 0.02320185614849188
+3 , False Positive Rate of total detection(DT): , 0.04524361948955916
+3 , False Positive Rate of total detection(Hybrid): , 0.04524361948955916
+4 , Random Forest Model Accuracy Rate (n=100): , 0.999672867642248
+4 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990404117505943
+4 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990404117505943
+4 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+4 , Detection Rate of Compare DATA(DT): , 0.9952305982589369
+4 , Detection Rate of Compare DATA(Hybrid): , 0.9952074458233006
+4 , Total Detection Rate(RF): , 0.9738041002277904
+4 , Total Detection Rate(DT): , 0.9669703872437357
+4 , Total Detection Rate(Hybrid): , 0.9669703872437357
+4 , SSH Detection Rate(RF): , 0.8125
+4 , SSH Detection Rate(DT): , 1.0
+4 , SSH Detection Rate(Hybrid): , 1.0
+4 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+4 , False Rate of total detection(RF): , 0.9817767653758542
+4 , False Rate of total detection(DT): , 0.9817767653758542
+4 , False Rate of total detection(Hybrid): , 0.9817767653758542
+4 , False Positive Rate of total detection(RF): , 0.02320185614849188
+4 , False Positive Rate of total detection(DT): , 0.033642691415313224
+4 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+5 , Random Forest Model Accuracy Rate (n=100): , 0.9997382941137984
+5 , Decision Tree Model Accuracy Rate (depth=4): , 0.9993457352844961
+5 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993457352844961
+5 , Detection Rate of Compare DATA(RF): , 0.993934061863308
+5 , Detection Rate of Compare DATA(DT): , 0.9952305982589369
+5 , Detection Rate of Compare DATA(Hybrid): , 0.9952074458233006
+5 , Total Detection Rate(RF): , 0.9749430523917996
+5 , Total Detection Rate(DT): , 0.9669703872437357
+5 , Total Detection Rate(Hybrid): , 0.9669703872437357
+5 , SSH Detection Rate(RF): , 0.8125
+5 , SSH Detection Rate(DT): , 1.0
+5 , SSH Detection Rate(Hybrid): , 1.0
+5 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+5 , False Rate of total detection(RF): , 0.9817767653758542
+5 , False Rate of total detection(DT): , 0.9817767653758542
+5 , False Rate of total detection(Hybrid): , 0.9817767653758542
+5 , False Positive Rate of total detection(RF): , 0.022041763341067284
+5 , False Positive Rate of total detection(DT): , 0.033642691415313224
+5 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+6 , Random Forest Model Accuracy Rate (n=100): , 0.9997164852899483
+6 , Decision Tree Model Accuracy Rate (depth=4): , 0.9993457352844961
+6 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993675441083463
+6 , Detection Rate of Compare DATA(RF): , 0.9936793850713095
+6 , Detection Rate of Compare DATA(DT): , 0.9947675495462123
+6 , Detection Rate of Compare DATA(Hybrid): , 0.994744397110576
+6 , Total Detection Rate(RF): , 0.9669703872437357
+6 , Total Detection Rate(DT): , 0.9601366742596811
+6 , Total Detection Rate(Hybrid): , 0.9601366742596811
+6 , SSH Detection Rate(RF): , 0.8125
+6 , SSH Detection Rate(DT): , 1.0
+6 , SSH Detection Rate(Hybrid): , 1.0
+6 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+6 , False Rate of total detection(RF): , 0.9817767653758542
+6 , False Rate of total detection(DT): , 0.9817767653758542
+6 , False Rate of total detection(Hybrid): , 0.9817767653758542
+6 , False Positive Rate of total detection(RF): , 0.030162412993039442
+6 , False Positive Rate of total detection(DT): , 0.04060324825986079
+6 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+7 , Random Forest Model Accuracy Rate (n=100): , 0.999672867642248
+7 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+7 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992366911652455
+7 , Detection Rate of Compare DATA(RF): , 0.9940498240414891
+7 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+7 , Detection Rate of Compare DATA(Hybrid): , 0.9952074458233006
+7 , Total Detection Rate(RF): , 0.9772209567198178
+7 , Total Detection Rate(DT): , 0.9669703872437357
+7 , Total Detection Rate(Hybrid): , 0.9669703872437357
+7 , SSH Detection Rate(RF): , 0.875
+7 , SSH Detection Rate(DT): , 1.0
+7 , SSH Detection Rate(Hybrid): , 1.0
+7 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.125
+7 , False Rate of total detection(RF): , 0.9817767653758542
+7 , False Rate of total detection(DT): , 0.9817767653758542
+7 , False Rate of total detection(Hybrid): , 0.9817767653758542
+7 , False Positive Rate of total detection(RF): , 0.02088167053364269
+7 , False Positive Rate of total detection(DT): , 0.033642691415313224
+7 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+8 , Random Forest Model Accuracy Rate (n=100): , 0.9995856323468475
+8 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+8 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992148823413953
+8 , Detection Rate of Compare DATA(RF): , 0.9952305982589369
+8 , Detection Rate of Compare DATA(DT): , 0.9949759214669384
+8 , Detection Rate of Compare DATA(Hybrid): , 0.9949990739025746
+8 , Total Detection Rate(RF): , 0.9703872437357631
+8 , Total Detection Rate(DT): , 0.9601366742596811
+8 , Total Detection Rate(Hybrid): , 0.9601366742596811
+8 , SSH Detection Rate(RF): , 1.0
+8 , SSH Detection Rate(DT): , 1.0
+8 , SSH Detection Rate(Hybrid): , 1.0
+8 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+8 , False Rate of total detection(RF): , 0.9817767653758542
+8 , False Rate of total detection(DT): , 0.9817767653758542
+8 , False Rate of total detection(Hybrid): , 0.9817767653758542
+8 , False Positive Rate of total detection(RF): , 0.030162412993039442
+8 , False Positive Rate of total detection(DT): , 0.04060324825986079
+8 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+9 , Random Forest Model Accuracy Rate (n=100): , 0.9997164852899483
+9 , Decision Tree Model Accuracy Rate (depth=4): , 0.9993239264606459
+9 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993457352844961
+9 , Detection Rate of Compare DATA(RF): , 0.9938877569920356
+9 , Detection Rate of Compare DATA(DT): , 0.9951842933876643
+9 , Detection Rate of Compare DATA(Hybrid): , 0.9951611409520281
+9 , Total Detection Rate(RF): , 0.9726651480637813
+9 , Total Detection Rate(DT): , 0.9669703872437357
+9 , Total Detection Rate(Hybrid): , 0.9669703872437357
+9 , SSH Detection Rate(RF): , 0.8125
+9 , SSH Detection Rate(DT): , 1.0
+9 , SSH Detection Rate(Hybrid): , 1.0
+9 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+9 , False Rate of total detection(RF): , 0.9817767653758542
+9 , False Rate of total detection(DT): , 0.9817767653758542
+9 , False Rate of total detection(Hybrid): , 0.9817767653758542
+9 , False Positive Rate of total detection(RF): , 0.024361948955916472
+9 , False Positive Rate of total detection(DT): , 0.033642691415313224
+9 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+10 , Random Forest Model Accuracy Rate (n=100): , 0.9996510588183979
+10 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991930735175452
+10 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992584999890955
+10 , Detection Rate of Compare DATA(RF): , 0.9938414521207631
+10 , Detection Rate of Compare DATA(DT): , 0.9950685312094832
+10 , Detection Rate of Compare DATA(Hybrid): , 0.995045378773847
+10 , Total Detection Rate(RF): , 0.9715261958997722
+10 , Total Detection Rate(DT): , 0.9624145785876993
+10 , Total Detection Rate(Hybrid): , 0.9624145785876993
+10 , SSH Detection Rate(RF): , 0.8125
+10 , SSH Detection Rate(DT): , 1.0
+10 , SSH Detection Rate(Hybrid): , 1.0
+10 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+10 , False Rate of total detection(RF): , 0.9817767653758542
+10 , False Rate of total detection(DT): , 0.9817767653758542
+10 , False Rate of total detection(Hybrid): , 0.9817767653758542
+10 , False Positive Rate of total detection(RF): , 0.025522041763341066
+10 , False Positive Rate of total detection(DT): , 0.0382830626450116
+10 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+11 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+11 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+11 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992366911652455
+11 , Detection Rate of Compare DATA(RF): , 0.9939572142989442
+11 , Detection Rate of Compare DATA(DT): , 0.9949064641600296
+11 , Detection Rate of Compare DATA(Hybrid): , 0.9948833117243934
+11 , Total Detection Rate(RF): , 0.9749430523917996
+11 , Total Detection Rate(DT): , 0.9544419134396356
+11 , Total Detection Rate(Hybrid): , 0.9544419134396356
+11 , SSH Detection Rate(RF): , 0.8125
+11 , SSH Detection Rate(DT): , 1.0
+11 , SSH Detection Rate(Hybrid): , 1.0
+11 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+11 , False Rate of total detection(RF): , 0.9817767653758542
+11 , False Rate of total detection(DT): , 0.9817767653758542
+11 , False Rate of total detection(Hybrid): , 0.9817767653758542
+11 , False Positive Rate of total detection(RF): , 0.022041763341067284
+11 , False Positive Rate of total detection(DT): , 0.04640371229698376
+11 , False Positive Rate of total detection(Hybrid): , 0.04640371229698376
+12 , Random Forest Model Accuracy Rate (n=100): , 0.9997601029376486
+12 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992803088129457
+12 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993021176367959
+12 , Detection Rate of Compare DATA(RF): , 0.9940266716058529
+12 , Detection Rate of Compare DATA(DT): , 0.9951611409520281
+12 , Detection Rate of Compare DATA(Hybrid): , 0.9951379885163919
+12 , Total Detection Rate(RF): , 0.9760820045558086
+12 , Total Detection Rate(DT): , 0.9646924829157175
+12 , Total Detection Rate(Hybrid): , 0.9646924829157175
+12 , SSH Detection Rate(RF): , 0.9375
+12 , SSH Detection Rate(DT): , 1.0
+12 , SSH Detection Rate(Hybrid): , 1.0
+12 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0625
+12 , False Rate of total detection(RF): , 0.9817767653758542
+12 , False Rate of total detection(DT): , 0.9817767653758542
+12 , False Rate of total detection(Hybrid): , 0.9817767653758542
+12 , False Positive Rate of total detection(RF): , 0.02320185614849188
+12 , False Positive Rate of total detection(DT): , 0.03596287703016241
+12 , False Positive Rate of total detection(Hybrid): , 0.03596287703016241
+13 , Random Forest Model Accuracy Rate (n=100): , 0.9996946764660982
+13 , Decision Tree Model Accuracy Rate (depth=4): , 0.9993021176367959
+13 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993457352844961
+13 , Detection Rate of Compare DATA(RF): , 0.9940035191702167
+13 , Detection Rate of Compare DATA(DT): , 0.9947907019818485
+13 , Detection Rate of Compare DATA(Hybrid): , 0.9947675495462123
+13 , Total Detection Rate(RF): , 0.9772209567198178
+13 , Total Detection Rate(DT): , 0.9601366742596811
+13 , Total Detection Rate(Hybrid): , 0.9601366742596811
+13 , SSH Detection Rate(RF): , 0.8125
+13 , SSH Detection Rate(DT): , 1.0
+13 , SSH Detection Rate(Hybrid): , 1.0
+13 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+13 , False Rate of total detection(RF): , 0.9817767653758542
+13 , False Rate of total detection(DT): , 0.9817767653758542
+13 , False Rate of total detection(Hybrid): , 0.9817767653758542
+13 , False Positive Rate of total detection(RF): , 0.019721577726218097
+13 , False Positive Rate of total detection(DT): , 0.04060324825986079
+13 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+14 , Random Forest Model Accuracy Rate (n=100): , 0.9996510588183979
+14 , Decision Tree Model Accuracy Rate (depth=4): , 0.9989749852790439
+14 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990622205744444
+14 , Detection Rate of Compare DATA(RF): , 0.9949990739025746
+14 , Detection Rate of Compare DATA(DT): , 0.9951842933876643
+14 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+14 , Total Detection Rate(RF): , 0.9726651480637813
+14 , Total Detection Rate(DT): , 0.9669703872437357
+14 , Total Detection Rate(Hybrid): , 0.9669703872437357
+14 , SSH Detection Rate(RF): , 1.0
+14 , SSH Detection Rate(DT): , 1.0
+14 , SSH Detection Rate(Hybrid): , 1.0
+14 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+14 , False Rate of total detection(RF): , 0.9817767653758542
+14 , False Rate of total detection(DT): , 0.9817767653758542
+14 , False Rate of total detection(Hybrid): , 0.9817767653758542
+14 , False Positive Rate of total detection(RF): , 0.027842227378190254
+14 , False Positive Rate of total detection(DT): , 0.033642691415313224
+14 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+15 , Random Forest Model Accuracy Rate (n=100): , 0.9996074411706977
+15 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990622205744444
+15 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991058382221447
+15 , Detection Rate of Compare DATA(RF): , 0.9938646045563994
+15 , Detection Rate of Compare DATA(DT): , 0.9952305982589369
+15 , Detection Rate of Compare DATA(Hybrid): , 0.9952074458233006
+15 , Total Detection Rate(RF): , 0.9726651480637813
+15 , Total Detection Rate(DT): , 0.9669703872437357
+15 , Total Detection Rate(Hybrid): , 0.9669703872437357
+15 , SSH Detection Rate(RF): , 0.8125
+15 , SSH Detection Rate(DT): , 1.0
+15 , SSH Detection Rate(Hybrid): , 1.0
+15 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+15 , False Rate of total detection(RF): , 0.9817767653758542
+15 , False Rate of total detection(DT): , 0.9817767653758542
+15 , False Rate of total detection(Hybrid): , 0.9817767653758542
+15 , False Positive Rate of total detection(RF): , 0.024361948955916472
+15 , False Positive Rate of total detection(DT): , 0.033642691415313224
+15 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+16 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+16 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991058382221447
+16 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991494558698449
+16 , Detection Rate of Compare DATA(RF): , 0.9938646045563994
+16 , Detection Rate of Compare DATA(DT): , 0.9951379885163919
+16 , Detection Rate of Compare DATA(Hybrid): , 0.9951148360807557
+16 , Total Detection Rate(RF): , 0.9726651480637813
+16 , Total Detection Rate(DT): , 0.9646924829157175
+16 , Total Detection Rate(Hybrid): , 0.9646924829157175
+16 , SSH Detection Rate(RF): , 0.8125
+16 , SSH Detection Rate(DT): , 1.0
+16 , SSH Detection Rate(Hybrid): , 1.0
+16 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+16 , False Rate of total detection(RF): , 0.9817767653758542
+16 , False Rate of total detection(DT): , 0.9817767653758542
+16 , False Rate of total detection(Hybrid): , 0.9817767653758542
+16 , False Positive Rate of total detection(RF): , 0.024361948955916472
+16 , False Positive Rate of total detection(DT): , 0.03596287703016241
+16 , False Positive Rate of total detection(Hybrid): , 0.03596287703016241
+17 , Random Forest Model Accuracy Rate (n=100): , 0.9997819117614987
+17 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991930735175452
+17 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992366911652455
+17 , Detection Rate of Compare DATA(RF): , 0.9940266716058529
+17 , Detection Rate of Compare DATA(DT): , 0.9952537506945731
+17 , Detection Rate of Compare DATA(Hybrid): , 0.9952305982589369
+17 , Total Detection Rate(RF): , 0.9783599088838268
+17 , Total Detection Rate(DT): , 0.9658314350797267
+17 , Total Detection Rate(Hybrid): , 0.9658314350797267
+17 , SSH Detection Rate(RF): , 0.8125
+17 , SSH Detection Rate(DT): , 1.0
+17 , SSH Detection Rate(Hybrid): , 1.0
+17 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+17 , False Rate of total detection(RF): , 0.9817767653758542
+17 , False Rate of total detection(DT): , 0.9817767653758542
+17 , False Rate of total detection(Hybrid): , 0.9817767653758542
+17 , False Positive Rate of total detection(RF): , 0.018561484918793503
+17 , False Positive Rate of total detection(DT): , 0.03480278422273782
+17 , False Positive Rate of total detection(Hybrid): , 0.03480278422273782
+18 , Random Forest Model Accuracy Rate (n=100): , 0.9996074411706977
+18 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+18 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992148823413953
+18 , Detection Rate of Compare DATA(RF): , 0.9940266716058529
+18 , Detection Rate of Compare DATA(DT): , 0.9949990739025746
+18 , Detection Rate of Compare DATA(Hybrid): , 0.9949759214669384
+18 , Total Detection Rate(RF): , 0.979498861047836
+18 , Total Detection Rate(DT): , 0.9601366742596811
+18 , Total Detection Rate(Hybrid): , 0.9601366742596811
+18 , SSH Detection Rate(RF): , 0.8125
+18 , SSH Detection Rate(DT): , 1.0
+18 , SSH Detection Rate(Hybrid): , 1.0
+18 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+18 , False Rate of total detection(RF): , 0.9817767653758542
+18 , False Rate of total detection(DT): , 0.9817767653758542
+18 , False Rate of total detection(Hybrid): , 0.9817767653758542
+18 , False Positive Rate of total detection(RF): , 0.01740139211136891
+18 , False Positive Rate of total detection(DT): , 0.04060324825986079
+18 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+19 , Random Forest Model Accuracy Rate (n=100): , 0.9995638235229974
+19 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992803088129457
+19 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992584999890955
+19 , Detection Rate of Compare DATA(RF): , 0.9939803667345805
+19 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+19 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+19 , Total Detection Rate(RF): , 0.9772209567198178
+19 , Total Detection Rate(DT): , 0.9658314350797267
+19 , Total Detection Rate(Hybrid): , 0.9658314350797267
+19 , SSH Detection Rate(RF): , 0.8125
+19 , SSH Detection Rate(DT): , 1.0
+19 , SSH Detection Rate(Hybrid): , 1.0
+19 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+19 , False Rate of total detection(RF): , 0.9817767653758542
+19 , False Rate of total detection(DT): , 0.9817767653758542
+19 , False Rate of total detection(Hybrid): , 0.9817767653758542
+19 , False Positive Rate of total detection(RF): , 0.019721577726218097
+19 , False Positive Rate of total detection(DT): , 0.03480278422273782
+19 , False Positive Rate of total detection(Hybrid): , 0.03480278422273782
+20 , Random Forest Model Accuracy Rate (n=100): , 0.9996510588183979
+20 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991058382221447
+20 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991494558698449
+20 , Detection Rate of Compare DATA(RF): , 0.993934061863308
+20 , Detection Rate of Compare DATA(DT): , 0.995045378773847
+20 , Detection Rate of Compare DATA(Hybrid): , 0.9950222263382108
+20 , Total Detection Rate(RF): , 0.9760820045558086
+20 , Total Detection Rate(DT): , 0.9624145785876993
+20 , Total Detection Rate(Hybrid): , 0.9624145785876993
+20 , SSH Detection Rate(RF): , 0.8125
+20 , SSH Detection Rate(DT): , 1.0
+20 , SSH Detection Rate(Hybrid): , 1.0
+20 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+20 , False Rate of total detection(RF): , 0.9817767653758542
+20 , False Rate of total detection(DT): , 0.9817767653758542
+20 , False Rate of total detection(Hybrid): , 0.9817767653758542
+20 , False Positive Rate of total detection(RF): , 0.02088167053364269
+20 , False Positive Rate of total detection(DT): , 0.0382830626450116
+20 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+21 , Random Forest Model Accuracy Rate (n=100): , 0.9996510588183979
+21 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991058382221447
+21 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991712646936951
+21 , Detection Rate of Compare DATA(RF): , 0.9940266716058529
+21 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+21 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+21 , Total Detection Rate(RF): , 0.9783599088838268
+21 , Total Detection Rate(DT): , 0.9669703872437357
+21 , Total Detection Rate(Hybrid): , 0.9669703872437357
+21 , SSH Detection Rate(RF): , 0.8125
+21 , SSH Detection Rate(DT): , 1.0
+21 , SSH Detection Rate(Hybrid): , 1.0
+21 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+21 , False Rate of total detection(RF): , 0.9817767653758542
+21 , False Rate of total detection(DT): , 0.9817767653758542
+21 , False Rate of total detection(Hybrid): , 0.9817767653758542
+21 , False Positive Rate of total detection(RF): , 0.018561484918793503
+21 , False Positive Rate of total detection(DT): , 0.033642691415313224
+21 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+22 , Random Forest Model Accuracy Rate (n=100): , 0.9996074411706977
+22 , Decision Tree Model Accuracy Rate (depth=4): , 0.9993021176367959
+22 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993239264606459
+22 , Detection Rate of Compare DATA(RF): , 0.9939572142989442
+22 , Detection Rate of Compare DATA(DT): , 0.9949990739025746
+22 , Detection Rate of Compare DATA(Hybrid): , 0.9949759214669384
+22 , Total Detection Rate(RF): , 0.9749430523917996
+22 , Total Detection Rate(DT): , 0.9601366742596811
+22 , Total Detection Rate(Hybrid): , 0.9601366742596811
+22 , SSH Detection Rate(RF): , 0.8125
+22 , SSH Detection Rate(DT): , 1.0
+22 , SSH Detection Rate(Hybrid): , 1.0
+22 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+22 , False Rate of total detection(RF): , 0.9817767653758542
+22 , False Rate of total detection(DT): , 0.9817767653758542
+22 , False Rate of total detection(Hybrid): , 0.9817767653758542
+22 , False Positive Rate of total detection(RF): , 0.022041763341067284
+22 , False Positive Rate of total detection(DT): , 0.04060324825986079
+22 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+23 , Random Forest Model Accuracy Rate (n=100): , 0.9994547794037467
+23 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990840293982945
+23 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991276470459948
+23 , Detection Rate of Compare DATA(RF): , 0.9952537506945731
+23 , Detection Rate of Compare DATA(DT): , 0.994744397110576
+23 , Detection Rate of Compare DATA(Hybrid): , 0.994744397110576
+23 , Total Detection Rate(RF): , 0.9703872437357631
+23 , Total Detection Rate(DT): , 0.9601366742596811
+23 , Total Detection Rate(Hybrid): , 0.9601366742596811
+23 , SSH Detection Rate(RF): , 1.0
+23 , SSH Detection Rate(DT): , 1.0
+23 , SSH Detection Rate(Hybrid): , 1.0
+23 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+23 , False Rate of total detection(RF): , 0.9817767653758542
+23 , False Rate of total detection(DT): , 0.9817767653758542
+23 , False Rate of total detection(Hybrid): , 0.9817767653758542
+23 , False Positive Rate of total detection(RF): , 0.030162412993039442
+23 , False Positive Rate of total detection(DT): , 0.04060324825986079
+23 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+24 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+24 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991276470459948
+24 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991276470459948
+24 , Detection Rate of Compare DATA(RF): , 0.9939803667345805
+24 , Detection Rate of Compare DATA(DT): , 0.9946054824967586
+24 , Detection Rate of Compare DATA(Hybrid): , 0.99453602518985
+24 , Total Detection Rate(RF): , 0.9749430523917996
+24 , Total Detection Rate(DT): , 0.9476082004555809
+24 , Total Detection Rate(Hybrid): , 0.9464692482915718
+24 , SSH Detection Rate(RF): , 0.8125
+24 , SSH Detection Rate(DT): , 1.0
+24 , SSH Detection Rate(Hybrid): , 1.0
+24 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+24 , False Rate of total detection(RF): , 0.9817767653758542
+24 , False Rate of total detection(DT): , 0.9817767653758542
+24 , False Rate of total detection(Hybrid): , 0.9817767653758542
+24 , False Positive Rate of total detection(RF): , 0.022041763341067284
+24 , False Positive Rate of total detection(DT): , 0.05336426914153132
+24 , False Positive Rate of total detection(Hybrid): , 0.054524361948955914
+25 , Random Forest Model Accuracy Rate (n=100): , 0.999498397051447
+25 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990840293982945
+25 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990840293982945
+25 , Detection Rate of Compare DATA(RF): , 0.993934061863308
+25 , Detection Rate of Compare DATA(DT): , 0.995045378773847
+25 , Detection Rate of Compare DATA(Hybrid): , 0.9950222263382108
+25 , Total Detection Rate(RF): , 0.9715261958997722
+25 , Total Detection Rate(DT): , 0.9624145785876993
+25 , Total Detection Rate(Hybrid): , 0.9624145785876993
+25 , SSH Detection Rate(RF): , 1.0
+25 , SSH Detection Rate(DT): , 1.0
+25 , SSH Detection Rate(Hybrid): , 1.0
+25 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+25 , False Rate of total detection(RF): , 0.9817767653758542
+25 , False Rate of total detection(DT): , 0.9817767653758542
+25 , False Rate of total detection(Hybrid): , 0.9817767653758542
+25 , False Positive Rate of total detection(RF): , 0.029002320185614848
+25 , False Positive Rate of total detection(DT): , 0.0382830626450116
+25 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+26 , Random Forest Model Accuracy Rate (n=100): , 0.9996946764660982
+26 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991930735175452
+26 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992803088129457
+26 , Detection Rate of Compare DATA(RF): , 0.993934061863308
+26 , Detection Rate of Compare DATA(DT): , 0.9953000555658456
+26 , Detection Rate of Compare DATA(Hybrid): , 0.9952305982589369
+26 , Total Detection Rate(RF): , 0.9726651480637813
+26 , Total Detection Rate(DT): , 0.9681093394077449
+26 , Total Detection Rate(Hybrid): , 0.9658314350797267
+26 , SSH Detection Rate(RF): , 0.8125
+26 , SSH Detection Rate(DT): , 1.0
+26 , SSH Detection Rate(Hybrid): , 1.0
+26 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+26 , False Rate of total detection(RF): , 0.9817767653758542
+26 , False Rate of total detection(DT): , 0.9817767653758542
+26 , False Rate of total detection(Hybrid): , 0.9817767653758542
+26 , False Positive Rate of total detection(RF): , 0.024361948955916472
+26 , False Positive Rate of total detection(DT): , 0.03248259860788863
+26 , False Positive Rate of total detection(Hybrid): , 0.03480278422273782
+27 , Random Forest Model Accuracy Rate (n=100): , 0.9995856323468475
+27 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992584999890955
+27 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993021176367959
+27 , Detection Rate of Compare DATA(RF): , 0.9938182996851269
+27 , Detection Rate of Compare DATA(DT): , 0.995045378773847
+27 , Detection Rate of Compare DATA(Hybrid): , 0.9950222263382108
+27 , Total Detection Rate(RF): , 0.9715261958997722
+27 , Total Detection Rate(DT): , 0.9624145785876993
+27 , Total Detection Rate(Hybrid): , 0.9624145785876993
+27 , SSH Detection Rate(RF): , 0.8125
+27 , SSH Detection Rate(DT): , 1.0
+27 , SSH Detection Rate(Hybrid): , 1.0
+27 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+27 , False Rate of total detection(RF): , 0.9817767653758542
+27 , False Rate of total detection(DT): , 0.9817767653758542
+27 , False Rate of total detection(Hybrid): , 0.9817767653758542
+27 , False Positive Rate of total detection(RF): , 0.025522041763341066
+27 , False Positive Rate of total detection(DT): , 0.0382830626450116
+27 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+28 , Random Forest Model Accuracy Rate (n=100): , 0.9996074411706977
+28 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991712646936951
+28 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991930735175452
+28 , Detection Rate of Compare DATA(RF): , 0.995346360437118
+28 , Detection Rate of Compare DATA(DT): , 0.9951842933876643
+28 , Detection Rate of Compare DATA(Hybrid): , 0.9952305982589369
+28 , Total Detection Rate(RF): , 0.9703872437357631
+28 , Total Detection Rate(DT): , 0.9669703872437357
+28 , Total Detection Rate(Hybrid): , 0.9669703872437357
+28 , SSH Detection Rate(RF): , 1.0
+28 , SSH Detection Rate(DT): , 1.0
+28 , SSH Detection Rate(Hybrid): , 1.0
+28 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+28 , False Rate of total detection(RF): , 0.9817767653758542
+28 , False Rate of total detection(DT): , 0.9817767653758542
+28 , False Rate of total detection(Hybrid): , 0.9817767653758542
+28 , False Positive Rate of total detection(RF): , 0.030162412993039442
+28 , False Positive Rate of total detection(DT): , 0.033642691415313224
+28 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+29 , Random Forest Model Accuracy Rate (n=100): , 0.9994111617560465
+29 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990404117505943
+29 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990404117505943
+29 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+29 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+29 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+29 , Total Detection Rate(RF): , 0.9749430523917996
+29 , Total Detection Rate(DT): , 0.9669703872437357
+29 , Total Detection Rate(Hybrid): , 0.9669703872437357
+29 , SSH Detection Rate(RF): , 0.8125
+29 , SSH Detection Rate(DT): , 1.0
+29 , SSH Detection Rate(Hybrid): , 1.0
+29 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+29 , False Rate of total detection(RF): , 0.9817767653758542
+29 , False Rate of total detection(DT): , 0.9817767653758542
+29 , False Rate of total detection(Hybrid): , 0.9817767653758542
+29 , False Positive Rate of total detection(RF): , 0.022041763341067284
+29 , False Positive Rate of total detection(DT): , 0.033642691415313224
+29 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+30 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+30 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992803088129457
+30 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993021176367959
+30 , Detection Rate of Compare DATA(RF): , 0.993934061863308
+30 , Detection Rate of Compare DATA(DT): , 0.995045378773847
+30 , Detection Rate of Compare DATA(Hybrid): , 0.995045378773847
+30 , Total Detection Rate(RF): , 0.9749430523917996
+30 , Total Detection Rate(DT): , 0.9624145785876993
+30 , Total Detection Rate(Hybrid): , 0.9624145785876993
+30 , SSH Detection Rate(RF): , 1.0
+30 , SSH Detection Rate(DT): , 1.0
+30 , SSH Detection Rate(Hybrid): , 1.0
+30 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+30 , False Rate of total detection(RF): , 0.9817767653758542
+30 , False Rate of total detection(DT): , 0.9817767653758542
+30 , False Rate of total detection(Hybrid): , 0.9817767653758542
+30 , False Positive Rate of total detection(RF): , 0.025522041763341066
+30 , False Positive Rate of total detection(DT): , 0.0382830626450116
+30 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+31 , Random Forest Model Accuracy Rate (n=100): , 0.999672867642248
+31 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+31 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992584999890955
+31 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+31 , Detection Rate of Compare DATA(DT): , 0.9949296165956658
+31 , Detection Rate of Compare DATA(Hybrid): , 0.9949064641600296
+31 , Total Detection Rate(RF): , 0.9749430523917996
+31 , Total Detection Rate(DT): , 0.9624145785876993
+31 , Total Detection Rate(Hybrid): , 0.9624145785876993
+31 , SSH Detection Rate(RF): , 0.8125
+31 , SSH Detection Rate(DT): , 1.0
+31 , SSH Detection Rate(Hybrid): , 1.0
+31 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+31 , False Rate of total detection(RF): , 0.9817767653758542
+31 , False Rate of total detection(DT): , 0.9817767653758542
+31 , False Rate of total detection(Hybrid): , 0.9817767653758542
+31 , False Positive Rate of total detection(RF): , 0.022041763341067284
+31 , False Positive Rate of total detection(DT): , 0.0382830626450116
+31 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+32 , Random Forest Model Accuracy Rate (n=100): , 0.999672867642248
+32 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991494558698449
+32 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991712646936951
+32 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+32 , Detection Rate of Compare DATA(DT): , 0.9945591776254862
+32 , Detection Rate of Compare DATA(Hybrid): , 0.99453602518985
+32 , Total Detection Rate(RF): , 0.9715261958997722
+32 , Total Detection Rate(DT): , 0.9555808656036446
+32 , Total Detection Rate(Hybrid): , 0.9555808656036446
+32 , SSH Detection Rate(RF): , 0.8125
+32 , SSH Detection Rate(DT): , 1.0
+32 , SSH Detection Rate(Hybrid): , 1.0
+32 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+32 , False Rate of total detection(RF): , 0.9817767653758542
+32 , False Rate of total detection(DT): , 0.9817767653758542
+32 , False Rate of total detection(Hybrid): , 0.9817767653758542
+32 , False Positive Rate of total detection(RF): , 0.025522041763341066
+32 , False Positive Rate of total detection(DT): , 0.04524361948955916
+32 , False Positive Rate of total detection(Hybrid): , 0.04524361948955916
+33 , Random Forest Model Accuracy Rate (n=100): , 0.9995856323468475
+33 , Decision Tree Model Accuracy Rate (depth=4): , 0.9993893529321963
+33 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993893529321963
+33 , Detection Rate of Compare DATA(RF): , 0.9941424337840341
+33 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+33 , Detection Rate of Compare DATA(Hybrid): , 0.9952074458233006
+33 , Total Detection Rate(RF): , 0.9851936218678815
+33 , Total Detection Rate(DT): , 0.9669703872437357
+33 , Total Detection Rate(Hybrid): , 0.9669703872437357
+33 , SSH Detection Rate(RF): , 0.8125
+33 , SSH Detection Rate(DT): , 1.0
+33 , SSH Detection Rate(Hybrid): , 1.0
+33 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+33 , False Rate of total detection(RF): , 0.9817767653758542
+33 , False Rate of total detection(DT): , 0.9817767653758542
+33 , False Rate of total detection(Hybrid): , 0.9817767653758542
+33 , False Positive Rate of total detection(RF): , 0.01160092807424594
+33 , False Positive Rate of total detection(DT): , 0.033642691415313224
+33 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+34 , Random Forest Model Accuracy Rate (n=100): , 0.9995420146991473
+34 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+34 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992366911652455
+34 , Detection Rate of Compare DATA(RF): , 0.9938182996851269
+34 , Detection Rate of Compare DATA(DT): , 0.9951379885163919
+34 , Detection Rate of Compare DATA(Hybrid): , 0.9951148360807557
+34 , Total Detection Rate(RF): , 0.9703872437357631
+34 , Total Detection Rate(DT): , 0.9646924829157175
+34 , Total Detection Rate(Hybrid): , 0.9646924829157175
+34 , SSH Detection Rate(RF): , 0.8125
+34 , SSH Detection Rate(DT): , 1.0
+34 , SSH Detection Rate(Hybrid): , 1.0
+34 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+34 , False Rate of total detection(RF): , 0.9817767653758542
+34 , False Rate of total detection(DT): , 0.9817767653758542
+34 , False Rate of total detection(Hybrid): , 0.9817767653758542
+34 , False Positive Rate of total detection(RF): , 0.02668213457076566
+34 , False Positive Rate of total detection(DT): , 0.03596287703016241
+34 , False Positive Rate of total detection(Hybrid): , 0.03596287703016241
+35 , Random Forest Model Accuracy Rate (n=100): , 0.9994111617560465
+35 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990404117505943
+35 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990404117505943
+35 , Detection Rate of Compare DATA(RF): , 0.9938646045563994
+35 , Detection Rate of Compare DATA(DT): , 0.9949990739025746
+35 , Detection Rate of Compare DATA(Hybrid): , 0.9949759214669384
+35 , Total Detection Rate(RF): , 0.9726651480637813
+35 , Total Detection Rate(DT): , 0.9624145785876993
+35 , Total Detection Rate(Hybrid): , 0.9624145785876993
+35 , SSH Detection Rate(RF): , 0.8125
+35 , SSH Detection Rate(DT): , 1.0
+35 , SSH Detection Rate(Hybrid): , 1.0
+35 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+35 , False Rate of total detection(RF): , 0.9817767653758542
+35 , False Rate of total detection(DT): , 0.9817767653758542
+35 , False Rate of total detection(Hybrid): , 0.9817767653758542
+35 , False Positive Rate of total detection(RF): , 0.024361948955916472
+35 , False Positive Rate of total detection(DT): , 0.0382830626450116
+35 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+36 , Random Forest Model Accuracy Rate (n=100): , 0.9996510588183979
+36 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992803088129457
+36 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992803088129457
+36 , Detection Rate of Compare DATA(RF): , 0.9939803667345805
+36 , Detection Rate of Compare DATA(DT): , 0.995045378773847
+36 , Detection Rate of Compare DATA(Hybrid): , 0.9950222263382108
+36 , Total Detection Rate(RF): , 0.9749430523917996
+36 , Total Detection Rate(DT): , 0.9624145785876993
+36 , Total Detection Rate(Hybrid): , 0.9624145785876993
+36 , SSH Detection Rate(RF): , 0.9375
+36 , SSH Detection Rate(DT): , 1.0
+36 , SSH Detection Rate(Hybrid): , 1.0
+36 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0625
+36 , False Rate of total detection(RF): , 0.9817767653758542
+36 , False Rate of total detection(DT): , 0.9817767653758542
+36 , False Rate of total detection(Hybrid): , 0.9817767653758542
+36 , False Positive Rate of total detection(RF): , 0.024361948955916472
+36 , False Positive Rate of total detection(DT): , 0.0382830626450116
+36 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+37 , Random Forest Model Accuracy Rate (n=100): , 0.9995856323468475
+37 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+37 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992803088129457
+37 , Detection Rate of Compare DATA(RF): , 0.9937719948138544
+37 , Detection Rate of Compare DATA(DT): , 0.9949759214669384
+37 , Detection Rate of Compare DATA(Hybrid): , 0.9949759214669384
+37 , Total Detection Rate(RF): , 0.9703872437357631
+37 , Total Detection Rate(DT): , 0.9635535307517085
+37 , Total Detection Rate(Hybrid): , 0.9635535307517085
+37 , SSH Detection Rate(RF): , 0.8125
+37 , SSH Detection Rate(DT): , 1.0
+37 , SSH Detection Rate(Hybrid): , 1.0
+37 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+37 , False Rate of total detection(RF): , 0.9817767653758542
+37 , False Rate of total detection(DT): , 0.9817767653758542
+37 , False Rate of total detection(Hybrid): , 0.9817767653758542
+37 , False Positive Rate of total detection(RF): , 0.02668213457076566
+37 , False Positive Rate of total detection(DT): , 0.037122969837587005
+37 , False Positive Rate of total detection(Hybrid): , 0.037122969837587005
+38 , Random Forest Model Accuracy Rate (n=100): , 0.9996074411706977
+38 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990622205744444
+38 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990840293982945
+38 , Detection Rate of Compare DATA(RF): , 0.9950222263382108
+38 , Detection Rate of Compare DATA(DT): , 0.9947675495462123
+38 , Detection Rate of Compare DATA(Hybrid): , 0.9947675495462123
+38 , Total Detection Rate(RF): , 0.9669703872437357
+38 , Total Detection Rate(DT): , 0.9601366742596811
+38 , Total Detection Rate(Hybrid): , 0.9601366742596811
+38 , SSH Detection Rate(RF): , 1.0
+38 , SSH Detection Rate(DT): , 1.0
+38 , SSH Detection Rate(Hybrid): , 1.0
+38 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+38 , False Rate of total detection(RF): , 0.9817767653758542
+38 , False Rate of total detection(DT): , 0.9817767653758542
+38 , False Rate of total detection(Hybrid): , 0.9817767653758542
+38 , False Positive Rate of total detection(RF): , 0.033642691415313224
+38 , False Positive Rate of total detection(DT): , 0.04060324825986079
+38 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+39 , Random Forest Model Accuracy Rate (n=100): , 0.9997382941137984
+39 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+39 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992803088129457
+39 , Detection Rate of Compare DATA(RF): , 0.9939803667345805
+39 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+39 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+39 , Total Detection Rate(RF): , 0.9829157175398633
+39 , Total Detection Rate(DT): , 0.9669703872437357
+39 , Total Detection Rate(Hybrid): , 0.9669703872437357
+39 , SSH Detection Rate(RF): , 0.8125
+39 , SSH Detection Rate(DT): , 1.0
+39 , SSH Detection Rate(Hybrid): , 1.0
+39 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+39 , False Rate of total detection(RF): , 0.9817767653758542
+39 , False Rate of total detection(DT): , 0.9817767653758542
+39 , False Rate of total detection(Hybrid): , 0.9817767653758542
+39 , False Positive Rate of total detection(RF): , 0.013921113689095127
+39 , False Positive Rate of total detection(DT): , 0.033642691415313224
+39 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+40 , Random Forest Model Accuracy Rate (n=100): , 0.9996946764660982
+40 , Decision Tree Model Accuracy Rate (depth=4): , 0.9994329705798967
+40 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9994547794037467
+40 , Detection Rate of Compare DATA(RF): , 0.9940729764771254
+40 , Detection Rate of Compare DATA(DT): , 0.995045378773847
+40 , Detection Rate of Compare DATA(Hybrid): , 0.9950222263382108
+40 , Total Detection Rate(RF): , 0.9738041002277904
+40 , Total Detection Rate(DT): , 0.9624145785876993
+40 , Total Detection Rate(Hybrid): , 0.9624145785876993
+40 , SSH Detection Rate(RF): , 0.875
+40 , SSH Detection Rate(DT): , 1.0
+40 , SSH Detection Rate(Hybrid): , 1.0
+40 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.125
+40 , False Rate of total detection(RF): , 0.9817767653758542
+40 , False Rate of total detection(DT): , 0.9817767653758542
+40 , False Rate of total detection(Hybrid): , 0.9817767653758542
+40 , False Positive Rate of total detection(RF): , 0.024361948955916472
+40 , False Positive Rate of total detection(DT): , 0.0382830626450116
+40 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+41 , Random Forest Model Accuracy Rate (n=100): , 0.9996946764660982
+41 , Decision Tree Model Accuracy Rate (depth=4): , 0.9989749852790439
+41 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991058382221447
+41 , Detection Rate of Compare DATA(RF): , 0.9941424337840341
+41 , Detection Rate of Compare DATA(DT): , 0.9951379885163919
+41 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+41 , Total Detection Rate(RF): , 0.9806378132118451
+41 , Total Detection Rate(DT): , 0.9726651480637813
+41 , Total Detection Rate(Hybrid): , 0.969248291571754
+41 , SSH Detection Rate(RF): , 0.8125
+41 , SSH Detection Rate(DT): , 1.0
+41 , SSH Detection Rate(Hybrid): , 1.0
+41 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+41 , False Rate of total detection(RF): , 0.9817767653758542
+41 , False Rate of total detection(DT): , 0.9817767653758542
+41 , False Rate of total detection(Hybrid): , 0.9817767653758542
+41 , False Positive Rate of total detection(RF): , 0.016241299303944315
+41 , False Positive Rate of total detection(DT): , 0.027842227378190254
+41 , False Positive Rate of total detection(Hybrid): , 0.031322505800464036
+42 , Random Forest Model Accuracy Rate (n=100): , 0.9997164852899483
+42 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992803088129457
+42 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993239264606459
+42 , Detection Rate of Compare DATA(RF): , 0.995346360437118
+42 , Detection Rate of Compare DATA(DT): , 0.9949990739025746
+42 , Detection Rate of Compare DATA(Hybrid): , 0.9949990739025746
+42 , Total Detection Rate(RF): , 0.9703872437357631
+42 , Total Detection Rate(DT): , 0.9601366742596811
+42 , Total Detection Rate(Hybrid): , 0.9601366742596811
+42 , SSH Detection Rate(RF): , 1.0
+42 , SSH Detection Rate(DT): , 1.0
+42 , SSH Detection Rate(Hybrid): , 1.0
+42 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+42 , False Rate of total detection(RF): , 0.9817767653758542
+42 , False Rate of total detection(DT): , 0.9817767653758542
+42 , False Rate of total detection(Hybrid): , 0.9817767653758542
+42 , False Positive Rate of total detection(RF): , 0.030162412993039442
+42 , False Positive Rate of total detection(DT): , 0.04060324825986079
+42 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+43 , Random Forest Model Accuracy Rate (n=100): , 0.999672867642248
+43 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+43 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992148823413953
+43 , Detection Rate of Compare DATA(RF): , 0.9953000555658456
+43 , Detection Rate of Compare DATA(DT): , 0.9951148360807557
+43 , Detection Rate of Compare DATA(Hybrid): , 0.9951148360807557
+43 , Total Detection Rate(RF): , 0.9715261958997722
+43 , Total Detection Rate(DT): , 0.9646924829157175
+43 , Total Detection Rate(Hybrid): , 0.9646924829157175
+43 , SSH Detection Rate(RF): , 1.0
+43 , SSH Detection Rate(DT): , 1.0
+43 , SSH Detection Rate(Hybrid): , 1.0
+43 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+43 , False Rate of total detection(RF): , 0.9817767653758542
+43 , False Rate of total detection(DT): , 0.9817767653758542
+43 , False Rate of total detection(Hybrid): , 0.9817767653758542
+43 , False Positive Rate of total detection(RF): , 0.029002320185614848
+43 , False Positive Rate of total detection(DT): , 0.03596287703016241
+43 , False Positive Rate of total detection(Hybrid): , 0.03596287703016241
+44 , Random Forest Model Accuracy Rate (n=100): , 0.9994547794037467
+44 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991712646936951
+44 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991712646936951
+44 , Detection Rate of Compare DATA(RF): , 0.9937951472494907
+44 , Detection Rate of Compare DATA(DT): , 0.9950222263382108
+44 , Detection Rate of Compare DATA(Hybrid): , 0.9950222263382108
+44 , Total Detection Rate(RF): , 0.9783599088838268
+44 , Total Detection Rate(DT): , 0.9635535307517085
+44 , Total Detection Rate(Hybrid): , 0.9635535307517085
+44 , SSH Detection Rate(RF): , 0.8125
+44 , SSH Detection Rate(DT): , 1.0
+44 , SSH Detection Rate(Hybrid): , 1.0
+44 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+44 , False Rate of total detection(RF): , 0.9817767653758542
+44 , False Rate of total detection(DT): , 0.9817767653758542
+44 , False Rate of total detection(Hybrid): , 0.9817767653758542
+44 , False Positive Rate of total detection(RF): , 0.018561484918793503
+44 , False Positive Rate of total detection(DT): , 0.037122969837587005
+44 , False Positive Rate of total detection(Hybrid): , 0.037122969837587005
+45 , Random Forest Model Accuracy Rate (n=100): , 0.9995420146991473
+45 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990840293982945
+45 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990840293982945
+45 , Detection Rate of Compare DATA(RF): , 0.9954158177440267
+45 , Detection Rate of Compare DATA(DT): , 0.9950685312094832
+45 , Detection Rate of Compare DATA(Hybrid): , 0.9950685312094832
+45 , Total Detection Rate(RF): , 0.9726651480637813
+45 , Total Detection Rate(DT): , 0.9624145785876993
+45 , Total Detection Rate(Hybrid): , 0.9624145785876993
+45 , SSH Detection Rate(RF): , 1.0
+45 , SSH Detection Rate(DT): , 1.0
+45 , SSH Detection Rate(Hybrid): , 1.0
+45 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+45 , False Rate of total detection(RF): , 0.9817767653758542
+45 , False Rate of total detection(DT): , 0.9817767653758542
+45 , False Rate of total detection(Hybrid): , 0.9817767653758542
+45 , False Positive Rate of total detection(RF): , 0.027842227378190254
+45 , False Positive Rate of total detection(DT): , 0.0382830626450116
+45 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+46 , Random Forest Model Accuracy Rate (n=100): , 0.9995420146991473
+46 , Decision Tree Model Accuracy Rate (depth=4): , 0.9993021176367959
+46 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993239264606459
+46 , Detection Rate of Compare DATA(RF): , 0.9953695128727542
+46 , Detection Rate of Compare DATA(DT): , 0.9950685312094832
+46 , Detection Rate of Compare DATA(Hybrid): , 0.9950685312094832
+46 , Total Detection Rate(RF): , 0.9738041002277904
+46 , Total Detection Rate(DT): , 0.9624145785876993
+46 , Total Detection Rate(Hybrid): , 0.9624145785876993
+46 , SSH Detection Rate(RF): , 1.0
+46 , SSH Detection Rate(DT): , 1.0
+46 , SSH Detection Rate(Hybrid): , 1.0
+46 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+46 , False Rate of total detection(RF): , 0.9817767653758542
+46 , False Rate of total detection(DT): , 0.9817767653758542
+46 , False Rate of total detection(Hybrid): , 0.9817767653758542
+46 , False Positive Rate of total detection(RF): , 0.02668213457076566
+46 , False Positive Rate of total detection(DT): , 0.0382830626450116
+46 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+47 , Random Forest Model Accuracy Rate (n=100): , 0.9995856323468475
+47 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+47 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993021176367959
+47 , Detection Rate of Compare DATA(RF): , 0.9941192813483979
+47 , Detection Rate of Compare DATA(DT): , 0.9952769031302093
+47 , Detection Rate of Compare DATA(Hybrid): , 0.9952537506945731
+47 , Total Detection Rate(RF): , 0.9806378132118451
+47 , Total Detection Rate(DT): , 0.9681093394077449
+47 , Total Detection Rate(Hybrid): , 0.9681093394077449
+47 , SSH Detection Rate(RF): , 0.8125
+47 , SSH Detection Rate(DT): , 1.0
+47 , SSH Detection Rate(Hybrid): , 1.0
+47 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+47 , False Rate of total detection(RF): , 0.9817767653758542
+47 , False Rate of total detection(DT): , 0.9817767653758542
+47 , False Rate of total detection(Hybrid): , 0.9817767653758542
+47 , False Positive Rate of total detection(RF): , 0.016241299303944315
+47 , False Positive Rate of total detection(DT): , 0.03248259860788863
+47 , False Positive Rate of total detection(Hybrid): , 0.03248259860788863
+48 , Random Forest Model Accuracy Rate (n=100): , 0.9995856323468475
+48 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+48 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992584999890955
+48 , Detection Rate of Compare DATA(RF): , 0.9940961289127617
+48 , Detection Rate of Compare DATA(DT): , 0.9950222263382108
+48 , Detection Rate of Compare DATA(Hybrid): , 0.9949990739025746
+48 , Total Detection Rate(RF): , 0.9760820045558086
+48 , Total Detection Rate(DT): , 0.9612756264236902
+48 , Total Detection Rate(Hybrid): , 0.9612756264236902
+48 , SSH Detection Rate(RF): , 1.0
+48 , SSH Detection Rate(DT): , 1.0
+48 , SSH Detection Rate(Hybrid): , 1.0
+48 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+48 , False Rate of total detection(RF): , 0.9817767653758542
+48 , False Rate of total detection(DT): , 0.9817767653758542
+48 , False Rate of total detection(Hybrid): , 0.9817767653758542
+48 , False Positive Rate of total detection(RF): , 0.024361948955916472
+48 , False Positive Rate of total detection(DT): , 0.03944315545243619
+48 , False Positive Rate of total detection(Hybrid): , 0.03944315545243619
+49 , Random Forest Model Accuracy Rate (n=100): , 0.9995420146991473
+49 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990186029267442
+49 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990404117505943
+49 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+49 , Detection Rate of Compare DATA(DT): , 0.9950222263382108
+49 , Detection Rate of Compare DATA(Hybrid): , 0.9949759214669384
+49 , Total Detection Rate(RF): , 0.9738041002277904
+49 , Total Detection Rate(DT): , 0.9578587699316629
+49 , Total Detection Rate(Hybrid): , 0.9567198177676538
+49 , SSH Detection Rate(RF): , 0.8125
+49 , SSH Detection Rate(DT): , 1.0
+49 , SSH Detection Rate(Hybrid): , 1.0
+49 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+49 , False Rate of total detection(RF): , 0.9817767653758542
+49 , False Rate of total detection(DT): , 0.9817767653758542
+49 , False Rate of total detection(Hybrid): , 0.9817767653758542
+49 , False Positive Rate of total detection(RF): , 0.02320185614849188
+49 , False Positive Rate of total detection(DT): , 0.042923433874709975
+49 , False Positive Rate of total detection(Hybrid): , 0.04408352668213457
+50 , Random Forest Model Accuracy Rate (n=100): , 0.9995638235229974
+50 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991712646936951
+50 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991494558698449
+50 , Detection Rate of Compare DATA(RF): , 0.9940035191702167
+50 , Detection Rate of Compare DATA(DT): , 0.9950916836451195
+50 , Detection Rate of Compare DATA(Hybrid): , 0.9950685312094832
+50 , Total Detection Rate(RF): , 0.9760820045558086
+50 , Total Detection Rate(DT): , 0.9624145785876993
+50 , Total Detection Rate(Hybrid): , 0.9624145785876993
+50 , SSH Detection Rate(RF): , 0.8125
+50 , SSH Detection Rate(DT): , 1.0
+50 , SSH Detection Rate(Hybrid): , 1.0
+50 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+50 , False Rate of total detection(RF): , 0.9817767653758542
+50 , False Rate of total detection(DT): , 0.9817767653758542
+50 , False Rate of total detection(Hybrid): , 0.9817767653758542
+50 , False Positive Rate of total detection(RF): , 0.02088167053364269
+50 , False Positive Rate of total detection(DT): , 0.0382830626450116
+50 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+51 , Random Forest Model Accuracy Rate (n=100): , 0.9994547794037467
+51 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991712646936951
+51 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992148823413953
+51 , Detection Rate of Compare DATA(RF): , 0.9938182996851269
+51 , Detection Rate of Compare DATA(DT): , 0.9951148360807557
+51 , Detection Rate of Compare DATA(Hybrid): , 0.9950916836451195
+51 , Total Detection Rate(RF): , 0.9715261958997722
+51 , Total Detection Rate(DT): , 0.9646924829157175
+51 , Total Detection Rate(Hybrid): , 0.9646924829157175
+51 , SSH Detection Rate(RF): , 0.8125
+51 , SSH Detection Rate(DT): , 1.0
+51 , SSH Detection Rate(Hybrid): , 1.0
+51 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+51 , False Rate of total detection(RF): , 0.9817767653758542
+51 , False Rate of total detection(DT): , 0.9817767653758542
+51 , False Rate of total detection(Hybrid): , 0.9817767653758542
+51 , False Positive Rate of total detection(RF): , 0.025522041763341066
+51 , False Positive Rate of total detection(DT): , 0.03596287703016241
+51 , False Positive Rate of total detection(Hybrid): , 0.03596287703016241
+52 , Random Forest Model Accuracy Rate (n=100): , 0.9995638235229974
+52 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991276470459948
+52 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991930735175452
+52 , Detection Rate of Compare DATA(RF): , 0.9939803667345805
+52 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+52 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+52 , Total Detection Rate(RF): , 0.9760820045558086
+52 , Total Detection Rate(DT): , 0.9669703872437357
+52 , Total Detection Rate(Hybrid): , 0.9669703872437357
+52 , SSH Detection Rate(RF): , 0.8125
+52 , SSH Detection Rate(DT): , 1.0
+52 , SSH Detection Rate(Hybrid): , 1.0
+52 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+52 , False Rate of total detection(RF): , 0.9817767653758542
+52 , False Rate of total detection(DT): , 0.9817767653758542
+52 , False Rate of total detection(Hybrid): , 0.9817767653758542
+52 , False Positive Rate of total detection(RF): , 0.02088167053364269
+52 , False Positive Rate of total detection(DT): , 0.033642691415313224
+52 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+53 , Random Forest Model Accuracy Rate (n=100): , 0.9996510588183979
+53 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+53 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992366911652455
+53 , Detection Rate of Compare DATA(RF): , 0.9940035191702167
+53 , Detection Rate of Compare DATA(DT): , 0.9952305982589369
+53 , Detection Rate of Compare DATA(Hybrid): , 0.9952305982589369
+53 , Total Detection Rate(RF): , 0.9760820045558086
+53 , Total Detection Rate(DT): , 0.9669703872437357
+53 , Total Detection Rate(Hybrid): , 0.9669703872437357
+53 , SSH Detection Rate(RF): , 1.0
+53 , SSH Detection Rate(DT): , 1.0
+53 , SSH Detection Rate(Hybrid): , 1.0
+53 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+53 , False Rate of total detection(RF): , 0.9817767653758542
+53 , False Rate of total detection(DT): , 0.9817767653758542
+53 , False Rate of total detection(Hybrid): , 0.9817767653758542
+53 , False Positive Rate of total detection(RF): , 0.024361948955916472
+53 , False Positive Rate of total detection(DT): , 0.033642691415313224
+53 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+54 , Random Forest Model Accuracy Rate (n=100): , 0.9995202058752971
+54 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+54 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992148823413953
+54 , Detection Rate of Compare DATA(RF): , 0.9942118910909428
+54 , Detection Rate of Compare DATA(DT): , 0.9947907019818485
+54 , Detection Rate of Compare DATA(Hybrid): , 0.9948138544174847
+54 , Total Detection Rate(RF): , 0.9726651480637813
+54 , Total Detection Rate(DT): , 0.9601366742596811
+54 , Total Detection Rate(Hybrid): , 0.9601366742596811
+54 , SSH Detection Rate(RF): , 1.0
+54 , SSH Detection Rate(DT): , 1.0
+54 , SSH Detection Rate(Hybrid): , 1.0
+54 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+54 , False Rate of total detection(RF): , 0.9817767653758542
+54 , False Rate of total detection(DT): , 0.9817767653758542
+54 , False Rate of total detection(Hybrid): , 0.9817767653758542
+54 , False Positive Rate of total detection(RF): , 0.027842227378190254
+54 , False Positive Rate of total detection(DT): , 0.04060324825986079
+54 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+55 , Random Forest Model Accuracy Rate (n=100): , 0.9997382941137984
+55 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+55 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992584999890955
+55 , Detection Rate of Compare DATA(RF): , 0.9938646045563994
+55 , Detection Rate of Compare DATA(DT): , 0.9950685312094832
+55 , Detection Rate of Compare DATA(Hybrid): , 0.995045378773847
+55 , Total Detection Rate(RF): , 0.9726651480637813
+55 , Total Detection Rate(DT): , 0.9624145785876993
+55 , Total Detection Rate(Hybrid): , 0.9624145785876993
+55 , SSH Detection Rate(RF): , 0.8125
+55 , SSH Detection Rate(DT): , 1.0
+55 , SSH Detection Rate(Hybrid): , 1.0
+55 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+55 , False Rate of total detection(RF): , 0.9817767653758542
+55 , False Rate of total detection(DT): , 0.9817767653758542
+55 , False Rate of total detection(Hybrid): , 0.9817767653758542
+55 , False Positive Rate of total detection(RF): , 0.024361948955916472
+55 , False Positive Rate of total detection(DT): , 0.0382830626450116
+55 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+56 , Random Forest Model Accuracy Rate (n=100): , 0.9995856323468475
+56 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991494558698449
+56 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991712646936951
+56 , Detection Rate of Compare DATA(RF): , 0.9941424337840341
+56 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+56 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+56 , Total Detection Rate(RF): , 0.9817767653758542
+56 , Total Detection Rate(DT): , 0.9658314350797267
+56 , Total Detection Rate(Hybrid): , 0.9658314350797267
+56 , SSH Detection Rate(RF): , 0.8125
+56 , SSH Detection Rate(DT): , 1.0
+56 , SSH Detection Rate(Hybrid): , 1.0
+56 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+56 , False Rate of total detection(RF): , 0.9817767653758542
+56 , False Rate of total detection(DT): , 0.9817767653758542
+56 , False Rate of total detection(Hybrid): , 0.9817767653758542
+56 , False Positive Rate of total detection(RF): , 0.015081206496519721
+56 , False Positive Rate of total detection(DT): , 0.03480278422273782
+56 , False Positive Rate of total detection(Hybrid): , 0.03480278422273782
+57 , Random Forest Model Accuracy Rate (n=100): , 0.9994765882275969
+57 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991930735175452
+57 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991930735175452
+57 , Detection Rate of Compare DATA(RF): , 0.9943739581403964
+57 , Detection Rate of Compare DATA(DT): , 0.9947907019818485
+57 , Detection Rate of Compare DATA(Hybrid): , 0.9947675495462123
+57 , Total Detection Rate(RF): , 0.9726651480637813
+57 , Total Detection Rate(DT): , 0.9601366742596811
+57 , Total Detection Rate(Hybrid): , 0.9601366742596811
+57 , SSH Detection Rate(RF): , 1.0
+57 , SSH Detection Rate(DT): , 1.0
+57 , SSH Detection Rate(Hybrid): , 1.0
+57 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+57 , False Rate of total detection(RF): , 0.9817767653758542
+57 , False Rate of total detection(DT): , 0.9817767653758542
+57 , False Rate of total detection(Hybrid): , 0.9817767653758542
+57 , False Positive Rate of total detection(RF): , 0.027842227378190254
+57 , False Positive Rate of total detection(DT): , 0.04060324825986079
+57 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+58 , Random Forest Model Accuracy Rate (n=100): , 0.9996946764660982
+58 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+58 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993239264606459
+58 , Detection Rate of Compare DATA(RF): , 0.9940498240414891
+58 , Detection Rate of Compare DATA(DT): , 0.9947675495462123
+58 , Detection Rate of Compare DATA(Hybrid): , 0.9947675495462123
+58 , Total Detection Rate(RF): , 0.9749430523917996
+58 , Total Detection Rate(DT): , 0.9601366742596811
+58 , Total Detection Rate(Hybrid): , 0.9601366742596811
+58 , SSH Detection Rate(RF): , 1.0
+58 , SSH Detection Rate(DT): , 1.0
+58 , SSH Detection Rate(Hybrid): , 1.0
+58 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+58 , False Rate of total detection(RF): , 0.9817767653758542
+58 , False Rate of total detection(DT): , 0.9817767653758542
+58 , False Rate of total detection(Hybrid): , 0.9817767653758542
+58 , False Positive Rate of total detection(RF): , 0.025522041763341066
+58 , False Positive Rate of total detection(DT): , 0.04060324825986079
+58 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+59 , Random Forest Model Accuracy Rate (n=100): , 0.9995202058752971
+59 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991712646936951
+59 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991712646936951
+59 , Detection Rate of Compare DATA(RF): , 0.9939803667345805
+59 , Detection Rate of Compare DATA(DT): , 0.9951611409520281
+59 , Detection Rate of Compare DATA(Hybrid): , 0.9951379885163919
+59 , Total Detection Rate(RF): , 0.9760820045558086
+59 , Total Detection Rate(DT): , 0.9646924829157175
+59 , Total Detection Rate(Hybrid): , 0.9646924829157175
+59 , SSH Detection Rate(RF): , 0.8125
+59 , SSH Detection Rate(DT): , 1.0
+59 , SSH Detection Rate(Hybrid): , 1.0
+59 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+59 , False Rate of total detection(RF): , 0.9817767653758542
+59 , False Rate of total detection(DT): , 0.9817767653758542
+59 , False Rate of total detection(Hybrid): , 0.9817767653758542
+59 , False Positive Rate of total detection(RF): , 0.02088167053364269
+59 , False Positive Rate of total detection(DT): , 0.03596287703016241
+59 , False Positive Rate of total detection(Hybrid): , 0.03596287703016241
+60 , Random Forest Model Accuracy Rate (n=100): , 0.9995202058752971
+60 , Decision Tree Model Accuracy Rate (depth=4): , 0.998996794102894
+60 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991276470459948
+60 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+60 , Detection Rate of Compare DATA(DT): , 0.9947675495462123
+60 , Detection Rate of Compare DATA(Hybrid): , 0.994744397110576
+60 , Total Detection Rate(RF): , 0.9886104783599089
+60 , Total Detection Rate(DT): , 0.9601366742596811
+60 , Total Detection Rate(Hybrid): , 0.9601366742596811
+60 , SSH Detection Rate(RF): , 0.8125
+60 , SSH Detection Rate(DT): , 1.0
+60 , SSH Detection Rate(Hybrid): , 1.0
+60 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+60 , False Rate of total detection(RF): , 0.9817767653758542
+60 , False Rate of total detection(DT): , 0.9817767653758542
+60 , False Rate of total detection(Hybrid): , 0.9817767653758542
+60 , False Positive Rate of total detection(RF): , 0.008120649651972157
+60 , False Positive Rate of total detection(DT): , 0.04060324825986079
+60 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+61 , Random Forest Model Accuracy Rate (n=100): , 0.9994111617560465
+61 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990840293982945
+61 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991058382221447
+61 , Detection Rate of Compare DATA(RF): , 0.9940729764771254
+61 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+61 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+61 , Total Detection Rate(RF): , 0.9749430523917996
+61 , Total Detection Rate(DT): , 0.9669703872437357
+61 , Total Detection Rate(Hybrid): , 0.9669703872437357
+61 , SSH Detection Rate(RF): , 1.0
+61 , SSH Detection Rate(DT): , 1.0
+61 , SSH Detection Rate(Hybrid): , 1.0
+61 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+61 , False Rate of total detection(RF): , 0.9817767653758542
+61 , False Rate of total detection(DT): , 0.9817767653758542
+61 , False Rate of total detection(Hybrid): , 0.9817767653758542
+61 , False Positive Rate of total detection(RF): , 0.025522041763341066
+61 , False Positive Rate of total detection(DT): , 0.033642691415313224
+61 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+62 , Random Forest Model Accuracy Rate (n=100): , 0.9995638235229974
+62 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991494558698449
+62 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992584999890955
+62 , Detection Rate of Compare DATA(RF): , 0.9940266716058529
+62 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+62 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+62 , Total Detection Rate(RF): , 0.9783599088838268
+62 , Total Detection Rate(DT): , 0.9669703872437357
+62 , Total Detection Rate(Hybrid): , 0.9669703872437357
+62 , SSH Detection Rate(RF): , 0.875
+62 , SSH Detection Rate(DT): , 1.0
+62 , SSH Detection Rate(Hybrid): , 1.0
+62 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.125
+62 , False Rate of total detection(RF): , 0.9817767653758542
+62 , False Rate of total detection(DT): , 0.9817767653758542
+62 , False Rate of total detection(Hybrid): , 0.9817767653758542
+62 , False Positive Rate of total detection(RF): , 0.019721577726218097
+62 , False Positive Rate of total detection(DT): , 0.033642691415313224
+62 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+63 , Random Forest Model Accuracy Rate (n=100): , 0.9995856323468475
+63 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991494558698449
+63 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992803088129457
+63 , Detection Rate of Compare DATA(RF): , 0.9939803667345805
+63 , Detection Rate of Compare DATA(DT): , 0.9951148360807557
+63 , Detection Rate of Compare DATA(Hybrid): , 0.9950685312094832
+63 , Total Detection Rate(RF): , 0.9772209567198178
+63 , Total Detection Rate(DT): , 0.9681093394077449
+63 , Total Detection Rate(Hybrid): , 0.9681093394077449
+63 , SSH Detection Rate(RF): , 0.8125
+63 , SSH Detection Rate(DT): , 1.0
+63 , SSH Detection Rate(Hybrid): , 1.0
+63 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+63 , False Rate of total detection(RF): , 0.9817767653758542
+63 , False Rate of total detection(DT): , 0.9817767653758542
+63 , False Rate of total detection(Hybrid): , 0.9817767653758542
+63 , False Positive Rate of total detection(RF): , 0.019721577726218097
+63 , False Positive Rate of total detection(DT): , 0.03248259860788863
+63 , False Positive Rate of total detection(Hybrid): , 0.03248259860788863
+64 , Random Forest Model Accuracy Rate (n=100): , 0.9995638235229974
+64 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991712646936951
+64 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991930735175452
+64 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+64 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+64 , Detection Rate of Compare DATA(Hybrid): , 0.9952074458233006
+64 , Total Detection Rate(RF): , 0.9738041002277904
+64 , Total Detection Rate(DT): , 0.9669703872437357
+64 , Total Detection Rate(Hybrid): , 0.9669703872437357
+64 , SSH Detection Rate(RF): , 0.8125
+64 , SSH Detection Rate(DT): , 1.0
+64 , SSH Detection Rate(Hybrid): , 1.0
+64 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+64 , False Rate of total detection(RF): , 0.9817767653758542
+64 , False Rate of total detection(DT): , 0.9817767653758542
+64 , False Rate of total detection(Hybrid): , 0.9817767653758542
+64 , False Positive Rate of total detection(RF): , 0.02320185614849188
+64 , False Positive Rate of total detection(DT): , 0.033642691415313224
+64 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+65 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+65 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991058382221447
+65 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992148823413953
+65 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+65 , Detection Rate of Compare DATA(DT): , 0.9952769031302093
+65 , Detection Rate of Compare DATA(Hybrid): , 0.9952537506945731
+65 , Total Detection Rate(RF): , 0.9726651480637813
+65 , Total Detection Rate(DT): , 0.9681093394077449
+65 , Total Detection Rate(Hybrid): , 0.9681093394077449
+65 , SSH Detection Rate(RF): , 0.8125
+65 , SSH Detection Rate(DT): , 1.0
+65 , SSH Detection Rate(Hybrid): , 1.0
+65 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+65 , False Rate of total detection(RF): , 0.9817767653758542
+65 , False Rate of total detection(DT): , 0.9817767653758542
+65 , False Rate of total detection(Hybrid): , 0.9817767653758542
+65 , False Positive Rate of total detection(RF): , 0.024361948955916472
+65 , False Positive Rate of total detection(DT): , 0.03248259860788863
+65 , False Positive Rate of total detection(Hybrid): , 0.03248259860788863
+66 , Random Forest Model Accuracy Rate (n=100): , 0.9995638235229974
+66 , Decision Tree Model Accuracy Rate (depth=4): , 0.998996794102894
+66 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990404117505943
+66 , Detection Rate of Compare DATA(RF): , 0.9952769031302093
+66 , Detection Rate of Compare DATA(DT): , 0.9951842933876643
+66 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+66 , Total Detection Rate(RF): , 0.9749430523917996
+66 , Total Detection Rate(DT): , 0.9669703872437357
+66 , Total Detection Rate(Hybrid): , 0.9669703872437357
+66 , SSH Detection Rate(RF): , 1.0
+66 , SSH Detection Rate(DT): , 1.0
+66 , SSH Detection Rate(Hybrid): , 1.0
+66 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+66 , False Rate of total detection(RF): , 0.9817767653758542
+66 , False Rate of total detection(DT): , 0.9817767653758542
+66 , False Rate of total detection(Hybrid): , 0.9817767653758542
+66 , False Positive Rate of total detection(RF): , 0.025522041763341066
+66 , False Positive Rate of total detection(DT): , 0.033642691415313224
+66 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+67 , Random Forest Model Accuracy Rate (n=100): , 0.9996946764660982
+67 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991930735175452
+67 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992803088129457
+67 , Detection Rate of Compare DATA(RF): , 0.993934061863308
+67 , Detection Rate of Compare DATA(DT): , 0.9950685312094832
+67 , Detection Rate of Compare DATA(Hybrid): , 0.995045378773847
+67 , Total Detection Rate(RF): , 0.9760820045558086
+67 , Total Detection Rate(DT): , 0.9669703872437357
+67 , Total Detection Rate(Hybrid): , 0.9669703872437357
+67 , SSH Detection Rate(RF): , 0.9375
+67 , SSH Detection Rate(DT): , 1.0
+67 , SSH Detection Rate(Hybrid): , 1.0
+67 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0625
+67 , False Rate of total detection(RF): , 0.9817767653758542
+67 , False Rate of total detection(DT): , 0.9817767653758542
+67 , False Rate of total detection(Hybrid): , 0.9817767653758542
+67 , False Positive Rate of total detection(RF): , 0.02320185614849188
+67 , False Positive Rate of total detection(DT): , 0.033642691415313224
+67 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+68 , Random Forest Model Accuracy Rate (n=100): , 0.9995420146991473
+68 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991276470459948
+68 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991494558698449
+68 , Detection Rate of Compare DATA(RF): , 0.9938877569920356
+68 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+68 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+68 , Total Detection Rate(RF): , 0.9726651480637813
+68 , Total Detection Rate(DT): , 0.9669703872437357
+68 , Total Detection Rate(Hybrid): , 0.9669703872437357
+68 , SSH Detection Rate(RF): , 0.8125
+68 , SSH Detection Rate(DT): , 1.0
+68 , SSH Detection Rate(Hybrid): , 1.0
+68 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+68 , False Rate of total detection(RF): , 0.9817767653758542
+68 , False Rate of total detection(DT): , 0.9817767653758542
+68 , False Rate of total detection(Hybrid): , 0.9817767653758542
+68 , False Positive Rate of total detection(RF): , 0.024361948955916472
+68 , False Positive Rate of total detection(DT): , 0.033642691415313224
+68 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+69 , Random Forest Model Accuracy Rate (n=100): , 0.9995856323468475
+69 , Decision Tree Model Accuracy Rate (depth=4): , 0.9993457352844961
+69 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993675441083463
+69 , Detection Rate of Compare DATA(RF): , 0.9941655862196703
+69 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+69 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+69 , Total Detection Rate(RF): , 0.9783599088838268
+69 , Total Detection Rate(DT): , 0.9669703872437357
+69 , Total Detection Rate(Hybrid): , 0.9669703872437357
+69 , SSH Detection Rate(RF): , 1.0
+69 , SSH Detection Rate(DT): , 1.0
+69 , SSH Detection Rate(Hybrid): , 1.0
+69 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+69 , False Rate of total detection(RF): , 0.9817767653758542
+69 , False Rate of total detection(DT): , 0.9817767653758542
+69 , False Rate of total detection(Hybrid): , 0.9817767653758542
+69 , False Positive Rate of total detection(RF): , 0.022041763341067284
+69 , False Positive Rate of total detection(DT): , 0.033642691415313224
+69 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+70 , Random Forest Model Accuracy Rate (n=100): , 0.9995202058752971
+70 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991930735175452
+70 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992366911652455
+70 , Detection Rate of Compare DATA(RF): , 0.993934061863308
+70 , Detection Rate of Compare DATA(DT): , 0.995045378773847
+70 , Detection Rate of Compare DATA(Hybrid): , 0.9950222263382108
+70 , Total Detection Rate(RF): , 0.9749430523917996
+70 , Total Detection Rate(DT): , 0.9624145785876993
+70 , Total Detection Rate(Hybrid): , 0.9624145785876993
+70 , SSH Detection Rate(RF): , 0.8125
+70 , SSH Detection Rate(DT): , 1.0
+70 , SSH Detection Rate(Hybrid): , 1.0
+70 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+70 , False Rate of total detection(RF): , 0.9817767653758542
+70 , False Rate of total detection(DT): , 0.9817767653758542
+70 , False Rate of total detection(Hybrid): , 0.9817767653758542
+70 , False Positive Rate of total detection(RF): , 0.022041763341067284
+70 , False Positive Rate of total detection(DT): , 0.0382830626450116
+70 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+71 , Random Forest Model Accuracy Rate (n=100): , 0.9997164852899483
+71 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991494558698449
+71 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991712646936951
+71 , Detection Rate of Compare DATA(RF): , 0.9939803667345805
+71 , Detection Rate of Compare DATA(DT): , 0.9949990739025746
+71 , Detection Rate of Compare DATA(Hybrid): , 0.9949759214669384
+71 , Total Detection Rate(RF): , 0.9760820045558086
+71 , Total Detection Rate(DT): , 0.9601366742596811
+71 , Total Detection Rate(Hybrid): , 0.9601366742596811
+71 , SSH Detection Rate(RF): , 0.8125
+71 , SSH Detection Rate(DT): , 1.0
+71 , SSH Detection Rate(Hybrid): , 1.0
+71 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+71 , False Rate of total detection(RF): , 0.9817767653758542
+71 , False Rate of total detection(DT): , 0.9817767653758542
+71 , False Rate of total detection(Hybrid): , 0.9817767653758542
+71 , False Positive Rate of total detection(RF): , 0.02088167053364269
+71 , False Positive Rate of total detection(DT): , 0.04060324825986079
+71 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+72 , Random Forest Model Accuracy Rate (n=100): , 0.9995638235229974
+72 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+72 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992366911652455
+72 , Detection Rate of Compare DATA(RF): , 0.9950916836451195
+72 , Detection Rate of Compare DATA(DT): , 0.9951842933876643
+72 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+72 , Total Detection Rate(RF): , 0.9681093394077449
+72 , Total Detection Rate(DT): , 0.9658314350797267
+72 , Total Detection Rate(Hybrid): , 0.9658314350797267
+72 , SSH Detection Rate(RF): , 1.0
+72 , SSH Detection Rate(DT): , 1.0
+72 , SSH Detection Rate(Hybrid): , 1.0
+72 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+72 , False Rate of total detection(RF): , 0.9817767653758542
+72 , False Rate of total detection(DT): , 0.9817767653758542
+72 , False Rate of total detection(Hybrid): , 0.9817767653758542
+72 , False Positive Rate of total detection(RF): , 0.03248259860788863
+72 , False Positive Rate of total detection(DT): , 0.03480278422273782
+72 , False Positive Rate of total detection(Hybrid): , 0.03480278422273782
+73 , Random Forest Model Accuracy Rate (n=100): , 0.9997382941137984
+73 , Decision Tree Model Accuracy Rate (depth=4): , 0.9993457352844961
+73 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993675441083463
+73 , Detection Rate of Compare DATA(RF): , 0.9940729764771254
+73 , Detection Rate of Compare DATA(DT): , 0.9949527690313021
+73 , Detection Rate of Compare DATA(Hybrid): , 0.9949296165956658
+73 , Total Detection Rate(RF): , 0.9783599088838268
+73 , Total Detection Rate(DT): , 0.9601366742596811
+73 , Total Detection Rate(Hybrid): , 0.9601366742596811
+73 , SSH Detection Rate(RF): , 0.8125
+73 , SSH Detection Rate(DT): , 1.0
+73 , SSH Detection Rate(Hybrid): , 1.0
+73 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+73 , False Rate of total detection(RF): , 0.9817767653758542
+73 , False Rate of total detection(DT): , 0.9817767653758542
+73 , False Rate of total detection(Hybrid): , 0.9817767653758542
+73 , False Positive Rate of total detection(RF): , 0.018561484918793503
+73 , False Positive Rate of total detection(DT): , 0.04060324825986079
+73 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+74 , Random Forest Model Accuracy Rate (n=100): , 0.9996510588183979
+74 , Decision Tree Model Accuracy Rate (depth=4): , 0.998996794102894
+74 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990186029267442
+74 , Detection Rate of Compare DATA(RF): , 0.9937951472494907
+74 , Detection Rate of Compare DATA(DT): , 0.9951379885163919
+74 , Detection Rate of Compare DATA(Hybrid): , 0.9951148360807557
+74 , Total Detection Rate(RF): , 0.969248291571754
+74 , Total Detection Rate(DT): , 0.9635535307517085
+74 , Total Detection Rate(Hybrid): , 0.9635535307517085
+74 , SSH Detection Rate(RF): , 0.8125
+74 , SSH Detection Rate(DT): , 1.0
+74 , SSH Detection Rate(Hybrid): , 1.0
+74 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+74 , False Rate of total detection(RF): , 0.9817767653758542
+74 , False Rate of total detection(DT): , 0.9817767653758542
+74 , False Rate of total detection(Hybrid): , 0.9817767653758542
+74 , False Positive Rate of total detection(RF): , 0.027842227378190254
+74 , False Positive Rate of total detection(DT): , 0.037122969837587005
+74 , False Positive Rate of total detection(Hybrid): , 0.037122969837587005
+75 , Random Forest Model Accuracy Rate (n=100): , 0.9996946764660982
+75 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992803088129457
+75 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992803088129457
+75 , Detection Rate of Compare DATA(RF): , 0.9940035191702167
+75 , Detection Rate of Compare DATA(DT): , 0.9951842933876643
+75 , Detection Rate of Compare DATA(Hybrid): , 0.9951611409520281
+75 , Total Detection Rate(RF): , 0.9760820045558086
+75 , Total Detection Rate(DT): , 0.9658314350797267
+75 , Total Detection Rate(Hybrid): , 0.9658314350797267
+75 , SSH Detection Rate(RF): , 0.875
+75 , SSH Detection Rate(DT): , 1.0
+75 , SSH Detection Rate(Hybrid): , 1.0
+75 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.125
+75 , False Rate of total detection(RF): , 0.9817767653758542
+75 , False Rate of total detection(DT): , 0.9817767653758542
+75 , False Rate of total detection(Hybrid): , 0.9817767653758542
+75 , False Positive Rate of total detection(RF): , 0.022041763341067284
+75 , False Positive Rate of total detection(DT): , 0.03480278422273782
+75 , False Positive Rate of total detection(Hybrid): , 0.03480278422273782
+76 , Random Forest Model Accuracy Rate (n=100): , 0.9994547794037467
+76 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990186029267442
+76 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990622205744444
+76 , Detection Rate of Compare DATA(RF): , 0.9937951472494907
+76 , Detection Rate of Compare DATA(DT): , 0.9952305982589369
+76 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+76 , Total Detection Rate(RF): , 0.9715261958997722
+76 , Total Detection Rate(DT): , 0.9669703872437357
+76 , Total Detection Rate(Hybrid): , 0.9669703872437357
+76 , SSH Detection Rate(RF): , 0.8125
+76 , SSH Detection Rate(DT): , 1.0
+76 , SSH Detection Rate(Hybrid): , 1.0
+76 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+76 , False Rate of total detection(RF): , 0.9817767653758542
+76 , False Rate of total detection(DT): , 0.9817767653758542
+76 , False Rate of total detection(Hybrid): , 0.9817767653758542
+76 , False Positive Rate of total detection(RF): , 0.025522041763341066
+76 , False Positive Rate of total detection(DT): , 0.033642691415313224
+76 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+77 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+77 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992148823413953
+77 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992584999890955
+77 , Detection Rate of Compare DATA(RF): , 0.9939572142989442
+77 , Detection Rate of Compare DATA(DT): , 0.9946286349323948
+77 , Detection Rate of Compare DATA(Hybrid): , 0.9946054824967586
+77 , Total Detection Rate(RF): , 0.9760820045558086
+77 , Total Detection Rate(DT): , 0.9567198177676538
+77 , Total Detection Rate(Hybrid): , 0.9567198177676538
+77 , SSH Detection Rate(RF): , 0.8125
+77 , SSH Detection Rate(DT): , 1.0
+77 , SSH Detection Rate(Hybrid): , 1.0
+77 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+77 , False Rate of total detection(RF): , 0.9817767653758542
+77 , False Rate of total detection(DT): , 0.9817767653758542
+77 , False Rate of total detection(Hybrid): , 0.9817767653758542
+77 , False Positive Rate of total detection(RF): , 0.02088167053364269
+77 , False Positive Rate of total detection(DT): , 0.04408352668213457
+77 , False Positive Rate of total detection(Hybrid): , 0.04408352668213457
+78 , Random Forest Model Accuracy Rate (n=100): , 0.9994111617560465
+78 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990622205744444
+78 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990622205744444
+78 , Detection Rate of Compare DATA(RF): , 0.9953695128727542
+78 , Detection Rate of Compare DATA(DT): , 0.9946517873680312
+78 , Detection Rate of Compare DATA(Hybrid): , 0.9946517873680312
+78 , Total Detection Rate(RF): , 0.9703872437357631
+78 , Total Detection Rate(DT): , 0.9567198177676538
+78 , Total Detection Rate(Hybrid): , 0.9567198177676538
+78 , SSH Detection Rate(RF): , 1.0
+78 , SSH Detection Rate(DT): , 1.0
+78 , SSH Detection Rate(Hybrid): , 1.0
+78 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+78 , False Rate of total detection(RF): , 0.9817767653758542
+78 , False Rate of total detection(DT): , 0.9817767653758542
+78 , False Rate of total detection(Hybrid): , 0.9817767653758542
+78 , False Positive Rate of total detection(RF): , 0.030162412993039442
+78 , False Positive Rate of total detection(DT): , 0.04408352668213457
+78 , False Positive Rate of total detection(Hybrid): , 0.04408352668213457
+79 , Random Forest Model Accuracy Rate (n=100): , 0.999498397051447
+79 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990186029267442
+79 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990186029267442
+79 , Detection Rate of Compare DATA(RF): , 0.9952305982589369
+79 , Detection Rate of Compare DATA(DT): , 0.9950685312094832
+79 , Detection Rate of Compare DATA(Hybrid): , 0.995045378773847
+79 , Total Detection Rate(RF): , 0.9681093394077449
+79 , Total Detection Rate(DT): , 0.9624145785876993
+79 , Total Detection Rate(Hybrid): , 0.9624145785876993
+79 , SSH Detection Rate(RF): , 1.0
+79 , SSH Detection Rate(DT): , 1.0
+79 , SSH Detection Rate(Hybrid): , 1.0
+79 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+79 , False Rate of total detection(RF): , 0.9817767653758542
+79 , False Rate of total detection(DT): , 0.9817767653758542
+79 , False Rate of total detection(Hybrid): , 0.9817767653758542
+79 , False Positive Rate of total detection(RF): , 0.03248259860788863
+79 , False Positive Rate of total detection(DT): , 0.0382830626450116
+79 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+80 , Random Forest Model Accuracy Rate (n=100): , 0.9995638235229974
+80 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990840293982945
+80 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991058382221447
+80 , Detection Rate of Compare DATA(RF): , 0.9938877569920356
+80 , Detection Rate of Compare DATA(DT): , 0.9951148360807557
+80 , Detection Rate of Compare DATA(Hybrid): , 0.9950916836451195
+80 , Total Detection Rate(RF): , 0.9726651480637813
+80 , Total Detection Rate(DT): , 0.9646924829157175
+80 , Total Detection Rate(Hybrid): , 0.9646924829157175
+80 , SSH Detection Rate(RF): , 0.8125
+80 , SSH Detection Rate(DT): , 1.0
+80 , SSH Detection Rate(Hybrid): , 1.0
+80 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+80 , False Rate of total detection(RF): , 0.9817767653758542
+80 , False Rate of total detection(DT): , 0.9817767653758542
+80 , False Rate of total detection(Hybrid): , 0.9817767653758542
+80 , False Positive Rate of total detection(RF): , 0.024361948955916472
+80 , False Positive Rate of total detection(DT): , 0.03596287703016241
+80 , False Positive Rate of total detection(Hybrid): , 0.03596287703016241
+81 , Random Forest Model Accuracy Rate (n=100): , 0.9995420146991473
+81 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991276470459948
+81 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991276470459948
+81 , Detection Rate of Compare DATA(RF): , 0.9944434154473051
+81 , Detection Rate of Compare DATA(DT): , 0.9945591776254862
+81 , Detection Rate of Compare DATA(Hybrid): , 0.9945591776254862
+81 , Total Detection Rate(RF): , 0.9738041002277904
+81 , Total Detection Rate(DT): , 0.9555808656036446
+81 , Total Detection Rate(Hybrid): , 0.9555808656036446
+81 , SSH Detection Rate(RF): , 1.0
+81 , SSH Detection Rate(DT): , 1.0
+81 , SSH Detection Rate(Hybrid): , 1.0
+81 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+81 , False Rate of total detection(RF): , 0.9817767653758542
+81 , False Rate of total detection(DT): , 0.9817767653758542
+81 , False Rate of total detection(Hybrid): , 0.9817767653758542
+81 , False Positive Rate of total detection(RF): , 0.02668213457076566
+81 , False Positive Rate of total detection(DT): , 0.04524361948955916
+81 , False Positive Rate of total detection(Hybrid): , 0.04524361948955916
+82 , Random Forest Model Accuracy Rate (n=100): , 0.9994547794037467
+82 , Decision Tree Model Accuracy Rate (depth=4): , 0.998996794102894
+82 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.998996794102894
+82 , Detection Rate of Compare DATA(RF): , 0.9939572142989442
+82 , Detection Rate of Compare DATA(DT): , 0.9950916836451195
+82 , Detection Rate of Compare DATA(Hybrid): , 0.9950685312094832
+82 , Total Detection Rate(RF): , 0.9760820045558086
+82 , Total Detection Rate(DT): , 0.9624145785876993
+82 , Total Detection Rate(Hybrid): , 0.9624145785876993
+82 , SSH Detection Rate(RF): , 0.8125
+82 , SSH Detection Rate(DT): , 1.0
+82 , SSH Detection Rate(Hybrid): , 1.0
+82 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+82 , False Rate of total detection(RF): , 0.9817767653758542
+82 , False Rate of total detection(DT): , 0.9817767653758542
+82 , False Rate of total detection(Hybrid): , 0.9817767653758542
+82 , False Positive Rate of total detection(RF): , 0.02088167053364269
+82 , False Positive Rate of total detection(DT): , 0.0382830626450116
+82 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+83 , Random Forest Model Accuracy Rate (n=100): , 0.9994765882275969
+83 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991494558698449
+83 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991712646936951
+83 , Detection Rate of Compare DATA(RF): , 0.9952074458233006
+83 , Detection Rate of Compare DATA(DT): , 0.995045378773847
+83 , Detection Rate of Compare DATA(Hybrid): , 0.9950685312094832
+83 , Total Detection Rate(RF): , 0.969248291571754
+83 , Total Detection Rate(DT): , 0.9624145785876993
+83 , Total Detection Rate(Hybrid): , 0.9624145785876993
+83 , SSH Detection Rate(RF): , 1.0
+83 , SSH Detection Rate(DT): , 1.0
+83 , SSH Detection Rate(Hybrid): , 1.0
+83 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+83 , False Rate of total detection(RF): , 0.9817767653758542
+83 , False Rate of total detection(DT): , 0.9817767653758542
+83 , False Rate of total detection(Hybrid): , 0.9817767653758542
+83 , False Positive Rate of total detection(RF): , 0.031322505800464036
+83 , False Positive Rate of total detection(DT): , 0.0382830626450116
+83 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+84 , Random Forest Model Accuracy Rate (n=100): , 0.999672867642248
+84 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990404117505943
+84 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991058382221447
+84 , Detection Rate of Compare DATA(RF): , 0.9938182996851269
+84 , Detection Rate of Compare DATA(DT): , 0.9947675495462123
+84 , Detection Rate of Compare DATA(Hybrid): , 0.994744397110576
+84 , Total Detection Rate(RF): , 0.9715261958997722
+84 , Total Detection Rate(DT): , 0.9601366742596811
+84 , Total Detection Rate(Hybrid): , 0.9601366742596811
+84 , SSH Detection Rate(RF): , 0.8125
+84 , SSH Detection Rate(DT): , 1.0
+84 , SSH Detection Rate(Hybrid): , 1.0
+84 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+84 , False Rate of total detection(RF): , 0.9817767653758542
+84 , False Rate of total detection(DT): , 0.9817767653758542
+84 , False Rate of total detection(Hybrid): , 0.9817767653758542
+84 , False Positive Rate of total detection(RF): , 0.025522041763341066
+84 , False Positive Rate of total detection(DT): , 0.04060324825986079
+84 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+85 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+85 , Decision Tree Model Accuracy Rate (depth=4): , 0.998996794102894
+85 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.998996794102894
+85 , Detection Rate of Compare DATA(RF): , 0.9939803667345805
+85 , Detection Rate of Compare DATA(DT): , 0.9950685312094832
+85 , Detection Rate of Compare DATA(Hybrid): , 0.995045378773847
+85 , Total Detection Rate(RF): , 0.9760820045558086
+85 , Total Detection Rate(DT): , 0.9624145785876993
+85 , Total Detection Rate(Hybrid): , 0.9624145785876993
+85 , SSH Detection Rate(RF): , 0.875
+85 , SSH Detection Rate(DT): , 1.0
+85 , SSH Detection Rate(Hybrid): , 1.0
+85 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.125
+85 , False Rate of total detection(RF): , 0.9817767653758542
+85 , False Rate of total detection(DT): , 0.9817767653758542
+85 , False Rate of total detection(Hybrid): , 0.9817767653758542
+85 , False Positive Rate of total detection(RF): , 0.022041763341067284
+85 , False Positive Rate of total detection(DT): , 0.0382830626450116
+85 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+86 , Random Forest Model Accuracy Rate (n=100): , 0.9996074411706977
+86 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991494558698449
+86 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991494558698449
+86 , Detection Rate of Compare DATA(RF): , 0.9938414521207631
+86 , Detection Rate of Compare DATA(DT): , 0.9947907019818485
+86 , Detection Rate of Compare DATA(Hybrid): , 0.9947675495462123
+86 , Total Detection Rate(RF): , 0.9715261958997722
+86 , Total Detection Rate(DT): , 0.9601366742596811
+86 , Total Detection Rate(Hybrid): , 0.9601366742596811
+86 , SSH Detection Rate(RF): , 0.8125
+86 , SSH Detection Rate(DT): , 1.0
+86 , SSH Detection Rate(Hybrid): , 1.0
+86 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+86 , False Rate of total detection(RF): , 0.9817767653758542
+86 , False Rate of total detection(DT): , 0.9817767653758542
+86 , False Rate of total detection(Hybrid): , 0.9817767653758542
+86 , False Positive Rate of total detection(RF): , 0.025522041763341066
+86 , False Positive Rate of total detection(DT): , 0.04060324825986079
+86 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+87 , Random Forest Model Accuracy Rate (n=100): , 0.9996074411706977
+87 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992803088129457
+87 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993021176367959
+87 , Detection Rate of Compare DATA(RF): , 0.9937951472494907
+87 , Detection Rate of Compare DATA(DT): , 0.995045378773847
+87 , Detection Rate of Compare DATA(Hybrid): , 0.9950222263382108
+87 , Total Detection Rate(RF): , 0.9726651480637813
+87 , Total Detection Rate(DT): , 0.9624145785876993
+87 , Total Detection Rate(Hybrid): , 0.9624145785876993
+87 , SSH Detection Rate(RF): , 0.8125
+87 , SSH Detection Rate(DT): , 1.0
+87 , SSH Detection Rate(Hybrid): , 1.0
+87 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+87 , False Rate of total detection(RF): , 0.9817767653758542
+87 , False Rate of total detection(DT): , 0.9817767653758542
+87 , False Rate of total detection(Hybrid): , 0.9817767653758542
+87 , False Positive Rate of total detection(RF): , 0.024361948955916472
+87 , False Positive Rate of total detection(DT): , 0.0382830626450116
+87 , False Positive Rate of total detection(Hybrid): , 0.0382830626450116
+88 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+88 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+88 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992366911652455
+88 , Detection Rate of Compare DATA(RF): , 0.9937951472494907
+88 , Detection Rate of Compare DATA(DT): , 0.9951611409520281
+88 , Detection Rate of Compare DATA(Hybrid): , 0.9951379885163919
+88 , Total Detection Rate(RF): , 0.9703872437357631
+88 , Total Detection Rate(DT): , 0.9658314350797267
+88 , Total Detection Rate(Hybrid): , 0.9658314350797267
+88 , SSH Detection Rate(RF): , 0.8125
+88 , SSH Detection Rate(DT): , 1.0
+88 , SSH Detection Rate(Hybrid): , 1.0
+88 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+88 , False Rate of total detection(RF): , 0.9817767653758542
+88 , False Rate of total detection(DT): , 0.9817767653758542
+88 , False Rate of total detection(Hybrid): , 0.9817767653758542
+88 , False Positive Rate of total detection(RF): , 0.02668213457076566
+88 , False Positive Rate of total detection(DT): , 0.03480278422273782
+88 , False Positive Rate of total detection(Hybrid): , 0.03480278422273782
+89 , Random Forest Model Accuracy Rate (n=100): , 0.9996946764660982
+89 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991930735175452
+89 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992148823413953
+89 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+89 , Detection Rate of Compare DATA(DT): , 0.9949296165956658
+89 , Detection Rate of Compare DATA(Hybrid): , 0.9949064641600296
+89 , Total Detection Rate(RF): , 0.9738041002277904
+89 , Total Detection Rate(DT): , 0.9635535307517085
+89 , Total Detection Rate(Hybrid): , 0.9635535307517085
+89 , SSH Detection Rate(RF): , 0.8125
+89 , SSH Detection Rate(DT): , 1.0
+89 , SSH Detection Rate(Hybrid): , 1.0
+89 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+89 , False Rate of total detection(RF): , 0.9817767653758542
+89 , False Rate of total detection(DT): , 0.9817767653758542
+89 , False Rate of total detection(Hybrid): , 0.9817767653758542
+89 , False Positive Rate of total detection(RF): , 0.02320185614849188
+89 , False Positive Rate of total detection(DT): , 0.037122969837587005
+89 , False Positive Rate of total detection(Hybrid): , 0.037122969837587005
+90 , Random Forest Model Accuracy Rate (n=100): , 0.999498397051447
+90 , Decision Tree Model Accuracy Rate (depth=4): , 0.9988005146882428
+90 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.998822323512093
+90 , Detection Rate of Compare DATA(RF): , 0.9936562326356733
+90 , Detection Rate of Compare DATA(DT): , 0.9949990739025746
+90 , Detection Rate of Compare DATA(Hybrid): , 0.9949759214669384
+90 , Total Detection Rate(RF): , 0.9669703872437357
+90 , Total Detection Rate(DT): , 0.9601366742596811
+90 , Total Detection Rate(Hybrid): , 0.9601366742596811
+90 , SSH Detection Rate(RF): , 0.9375
+90 , SSH Detection Rate(DT): , 1.0
+90 , SSH Detection Rate(Hybrid): , 1.0
+90 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0625
+90 , False Rate of total detection(RF): , 0.9817767653758542
+90 , False Rate of total detection(DT): , 0.9817767653758542
+90 , False Rate of total detection(Hybrid): , 0.9817767653758542
+90 , False Positive Rate of total detection(RF): , 0.03248259860788863
+90 , False Positive Rate of total detection(DT): , 0.04060324825986079
+90 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+91 , Random Forest Model Accuracy Rate (n=100): , 0.9994329705798967
+91 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991058382221447
+91 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991058382221447
+91 , Detection Rate of Compare DATA(RF): , 0.9951379885163919
+91 , Detection Rate of Compare DATA(DT): , 0.9945823300611224
+91 , Detection Rate of Compare DATA(Hybrid): , 0.9946054824967586
+91 , Total Detection Rate(RF): , 0.9703872437357631
+91 , Total Detection Rate(DT): , 0.9567198177676538
+91 , Total Detection Rate(Hybrid): , 0.9567198177676538
+91 , SSH Detection Rate(RF): , 1.0
+91 , SSH Detection Rate(DT): , 1.0
+91 , SSH Detection Rate(Hybrid): , 1.0
+91 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+91 , False Rate of total detection(RF): , 0.9817767653758542
+91 , False Rate of total detection(DT): , 0.9817767653758542
+91 , False Rate of total detection(Hybrid): , 0.9817767653758542
+91 , False Positive Rate of total detection(RF): , 0.030162412993039442
+91 , False Positive Rate of total detection(DT): , 0.04408352668213457
+91 , False Positive Rate of total detection(Hybrid): , 0.04408352668213457
+92 , Random Forest Model Accuracy Rate (n=100): , 0.9995202058752971
+92 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991494558698449
+92 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992148823413953
+92 , Detection Rate of Compare DATA(RF): , 0.9938414521207631
+92 , Detection Rate of Compare DATA(DT): , 0.9946517873680312
+92 , Detection Rate of Compare DATA(Hybrid): , 0.9946286349323948
+92 , Total Detection Rate(RF): , 0.9703872437357631
+92 , Total Detection Rate(DT): , 0.9612756264236902
+92 , Total Detection Rate(Hybrid): , 0.9612756264236902
+92 , SSH Detection Rate(RF): , 0.8125
+92 , SSH Detection Rate(DT): , 1.0
+92 , SSH Detection Rate(Hybrid): , 1.0
+92 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+92 , False Rate of total detection(RF): , 0.9817767653758542
+92 , False Rate of total detection(DT): , 0.9817767653758542
+92 , False Rate of total detection(Hybrid): , 0.9817767653758542
+92 , False Positive Rate of total detection(RF): , 0.02668213457076566
+92 , False Positive Rate of total detection(DT): , 0.03944315545243619
+92 , False Positive Rate of total detection(Hybrid): , 0.03944315545243619
+93 , Random Forest Model Accuracy Rate (n=100): , 0.9995420146991473
+93 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990840293982945
+93 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991494558698449
+93 , Detection Rate of Compare DATA(RF): , 0.9938182996851269
+93 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+93 , Detection Rate of Compare DATA(Hybrid): , 0.9951842933876643
+93 , Total Detection Rate(RF): , 0.9703872437357631
+93 , Total Detection Rate(DT): , 0.9669703872437357
+93 , Total Detection Rate(Hybrid): , 0.9669703872437357
+93 , SSH Detection Rate(RF): , 1.0
+93 , SSH Detection Rate(DT): , 1.0
+93 , SSH Detection Rate(Hybrid): , 1.0
+93 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+93 , False Rate of total detection(RF): , 0.9817767653758542
+93 , False Rate of total detection(DT): , 0.9817767653758542
+93 , False Rate of total detection(Hybrid): , 0.9817767653758542
+93 , False Positive Rate of total detection(RF): , 0.030162412993039442
+93 , False Positive Rate of total detection(DT): , 0.033642691415313224
+93 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+94 , Random Forest Model Accuracy Rate (n=100): , 0.999672867642248
+94 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991058382221447
+94 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991276470459948
+94 , Detection Rate of Compare DATA(RF): , 0.9940266716058529
+94 , Detection Rate of Compare DATA(DT): , 0.994744397110576
+94 , Detection Rate of Compare DATA(Hybrid): , 0.9946980922393036
+94 , Total Detection Rate(RF): , 0.9783599088838268
+94 , Total Detection Rate(DT): , 0.9601366742596811
+94 , Total Detection Rate(Hybrid): , 0.958997722095672
+94 , SSH Detection Rate(RF): , 0.8125
+94 , SSH Detection Rate(DT): , 1.0
+94 , SSH Detection Rate(Hybrid): , 1.0
+94 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+94 , False Rate of total detection(RF): , 0.9817767653758542
+94 , False Rate of total detection(DT): , 0.9817767653758542
+94 , False Rate of total detection(Hybrid): , 0.9817767653758542
+94 , False Positive Rate of total detection(RF): , 0.018561484918793503
+94 , False Positive Rate of total detection(DT): , 0.04060324825986079
+94 , False Positive Rate of total detection(Hybrid): , 0.04176334106728538
+95 , Random Forest Model Accuracy Rate (n=100): , 0.9995420146991473
+95 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990186029267442
+95 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9990840293982945
+95 , Detection Rate of Compare DATA(RF): , 0.9940498240414891
+95 , Detection Rate of Compare DATA(DT): , 0.9947212446749398
+95 , Detection Rate of Compare DATA(Hybrid): , 0.9946980922393036
+95 , Total Detection Rate(RF): , 0.9783599088838268
+95 , Total Detection Rate(DT): , 0.958997722095672
+95 , Total Detection Rate(Hybrid): , 0.958997722095672
+95 , SSH Detection Rate(RF): , 0.8125
+95 , SSH Detection Rate(DT): , 1.0
+95 , SSH Detection Rate(Hybrid): , 1.0
+95 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+95 , False Rate of total detection(RF): , 0.9817767653758542
+95 , False Rate of total detection(DT): , 0.9817767653758542
+95 , False Rate of total detection(Hybrid): , 0.9817767653758542
+95 , False Positive Rate of total detection(RF): , 0.018561484918793503
+95 , False Positive Rate of total detection(DT): , 0.04176334106728538
+95 , False Positive Rate of total detection(Hybrid): , 0.04176334106728538
+96 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+96 , Decision Tree Model Accuracy Rate (depth=4): , 0.9990186029267442
+96 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9991058382221447
+96 , Detection Rate of Compare DATA(RF): , 0.9954389701796629
+96 , Detection Rate of Compare DATA(DT): , 0.9951379885163919
+96 , Detection Rate of Compare DATA(Hybrid): , 0.9951611409520281
+96 , Total Detection Rate(RF): , 0.9726651480637813
+96 , Total Detection Rate(DT): , 0.9646924829157175
+96 , Total Detection Rate(Hybrid): , 0.9646924829157175
+96 , SSH Detection Rate(RF): , 1.0
+96 , SSH Detection Rate(DT): , 1.0
+96 , SSH Detection Rate(Hybrid): , 1.0
+96 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+96 , False Rate of total detection(RF): , 0.9817767653758542
+96 , False Rate of total detection(DT): , 0.9817767653758542
+96 , False Rate of total detection(Hybrid): , 0.9817767653758542
+96 , False Positive Rate of total detection(RF): , 0.027842227378190254
+96 , False Positive Rate of total detection(DT): , 0.03596287703016241
+96 , False Positive Rate of total detection(Hybrid): , 0.03596287703016241
+97 , Random Forest Model Accuracy Rate (n=100): , 0.9996510588183979
+97 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992366911652455
+97 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992148823413953
+97 , Detection Rate of Compare DATA(RF): , 0.9939109094276718
+97 , Detection Rate of Compare DATA(DT): , 0.9946054824967586
+97 , Detection Rate of Compare DATA(Hybrid): , 0.9945823300611224
+97 , Total Detection Rate(RF): , 0.9669703872437357
+97 , Total Detection Rate(DT): , 0.9567198177676538
+97 , Total Detection Rate(Hybrid): , 0.9567198177676538
+97 , SSH Detection Rate(RF): , 1.0
+97 , SSH Detection Rate(DT): , 1.0
+97 , SSH Detection Rate(Hybrid): , 1.0
+97 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+97 , False Rate of total detection(RF): , 0.9817767653758542
+97 , False Rate of total detection(DT): , 0.9817767653758542
+97 , False Rate of total detection(Hybrid): , 0.9817767653758542
+97 , False Positive Rate of total detection(RF): , 0.033642691415313224
+97 , False Positive Rate of total detection(DT): , 0.04408352668213457
+97 , False Positive Rate of total detection(Hybrid): , 0.04408352668213457
+98 , Random Forest Model Accuracy Rate (n=100): , 0.9996292499945478
+98 , Decision Tree Model Accuracy Rate (depth=4): , 0.9991930735175452
+98 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9992584999890955
+98 , Detection Rate of Compare DATA(RF): , 0.9937719948138544
+98 , Detection Rate of Compare DATA(DT): , 0.9952074458233006
+98 , Detection Rate of Compare DATA(Hybrid): , 0.9951611409520281
+98 , Total Detection Rate(RF): , 0.9703872437357631
+98 , Total Detection Rate(DT): , 0.9669703872437357
+98 , Total Detection Rate(Hybrid): , 0.9669703872437357
+98 , SSH Detection Rate(RF): , 0.8125
+98 , SSH Detection Rate(DT): , 1.0
+98 , SSH Detection Rate(Hybrid): , 1.0
+98 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.1875
+98 , False Rate of total detection(RF): , 0.9817767653758542
+98 , False Rate of total detection(DT): , 0.9817767653758542
+98 , False Rate of total detection(Hybrid): , 0.9817767653758542
+98 , False Positive Rate of total detection(RF): , 0.02668213457076566
+98 , False Positive Rate of total detection(DT): , 0.033642691415313224
+98 , False Positive Rate of total detection(Hybrid): , 0.033642691415313224
+99 , Random Forest Model Accuracy Rate (n=100): , 0.9995420146991473
+99 , Decision Tree Model Accuracy Rate (depth=4): , 0.9989531764551938
+99 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.998996794102894
+99 , Detection Rate of Compare DATA(RF): , 0.9941655862196703
+99 , Detection Rate of Compare DATA(DT): , 0.9947675495462123
+99 , Detection Rate of Compare DATA(Hybrid): , 0.994744397110576
+99 , Total Detection Rate(RF): , 0.9783599088838268
+99 , Total Detection Rate(DT): , 0.9601366742596811
+99 , Total Detection Rate(Hybrid): , 0.9601366742596811
+99 , SSH Detection Rate(RF): , 0.875
+99 , SSH Detection Rate(DT): , 1.0
+99 , SSH Detection Rate(Hybrid): , 1.0
+99 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.125
+99 , False Rate of total detection(RF): , 0.9817767653758542
+99 , False Rate of total detection(DT): , 0.9817767653758542
+99 , False Rate of total detection(Hybrid): , 0.9817767653758542
+99 , False Positive Rate of total detection(RF): , 0.019721577726218097
+99 , False Positive Rate of total detection(DT): , 0.04060324825986079
+99 , False Positive Rate of total detection(Hybrid): , 0.04060324825986079
+100 , Random Forest Model Accuracy Rate (n=100): , 0.9996946764660982
+100 , Decision Tree Model Accuracy Rate (depth=4): , 0.9992803088129457
+100 , Hybrid Model Accuracy Rate (n=100 depth=4): , 0.9993457352844961
+100 , Detection Rate of Compare DATA(RF): , 0.9944897203185775
+100 , Detection Rate of Compare DATA(DT): , 0.9946286349323948
+100 , Detection Rate of Compare DATA(Hybrid): , 0.9946054824967586
+100 , Total Detection Rate(RF): , 0.9749430523917996
+100 , Total Detection Rate(DT): , 0.9567198177676538
+100 , Total Detection Rate(Hybrid): , 0.9567198177676538
+100 , SSH Detection Rate(RF): , 1.0
+100 , SSH Detection Rate(DT): , 1.0
+100 , SSH Detection Rate(Hybrid): , 1.0
+100 , True Positive Gap of SSH_detection Rate(Hybrid-RF): , 0.0
+100 , False Rate of total detection(RF): , 0.9817767653758542
+100 , False Rate of total detection(DT): , 0.9817767653758542
+100 , False Rate of total detection(Hybrid): , 0.9817767653758542
+100 , False Positive Rate of total detection(RF): , 0.025522041763341066
+100 , False Positive Rate of total detection(DT): , 0.04408352668213457
+100 , False Positive Rate of total detection(Hybrid): , 0.04408352668213457
