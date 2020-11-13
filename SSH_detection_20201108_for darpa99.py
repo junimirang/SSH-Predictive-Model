@@ -24,11 +24,8 @@ def hybrid_detection(x_test, y_test, y_pred_rf, y_pred_dtree):
     a_temp = []
     n = 0
     for i in z_temp:
-        if (i == 1):
-            if (y_pred_rf[n] == 'web' and y_pred_dtree[n] == 'web'):
-                a_temp.append('web')
-            else:
-                a_temp.append('ssh')
+        if (i == 1 and y_pred_dtree[n] == 'ssh'):
+            a_temp.append('ssh')
         else:
             a_temp.append(y_pred_rf[n])
         n = n + 1
