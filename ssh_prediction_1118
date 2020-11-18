@@ -66,12 +66,11 @@ def Decision_TREE_Visual(dtree, d_name):
     #class_names=["Dev_APP", "mobile_APP", "ssh", "web"], impurity=False)
     class_names=["telnet", "ftp", "smtp", "ssh", "web", "Dev_APP", "mobile_APP", ], impurity=False)
     (graph,) = pydot.graph_from_dot_file(d_name+'/'+"DecisionTree.dot", encoding='utf8')
-    graph.write_png("DecisionTree.png") #in MAC OS
-
-    with open(d_name+'/'+"DecisionTree.dot") as f:
-        dot_graph = f.read()
-        g= graphviz.Source(dot_graph)
-        g.render(d_name+'/'+"dtree.png", view=False)
+    #graph.write_png("DecisionTree.png") #in MAC OS
+#with open(d_name+'/'+"DecisionTree.dot") as f:
+#        dot_graph = f.read()
+#        g= graphviz.Source(dot_graph)
+#        g.render(d_name+'/'+"dtree.png", view=False)
 
 def loading_dataset(): ## After loading csv file, Pandas Data Frameset Generation ##
     # time.taken   c.ip   response.code  response.type  sc.byte    cs.byte    method URI    cs.host    cs.uri.port
@@ -81,7 +80,7 @@ def loading_dataset(): ## After loading csv file, Pandas Data Frameset Generatio
     # log_count_total_connect  avg_count_connect  log_avg_count_connect  transmit_speed_BPS
     # log_transmit_speed_BPS   LABEL
 
-    df = pd.read_csv('base_20191221.csv', index_col=0)
+    df = pd.read_csv('base_20200109.csv', index_col=0)
     df_compare = pd.read_csv('compare2nd_labeled.csv', index_col=0)
 
     X = df[["log_count_total_connect", "log_cs_byte", "log_transmit_speed_BPS","log_count_connect_IP", "log_avg_count_connect", "Business.time"]]
@@ -385,7 +384,8 @@ if __name__ == '__main__':
     result1, result2, result_PCA = PCA(X, K, L, Z, Y, N, K_compare, L_compare, Z_compare, Y_compare, N_compare)
     sys.stdout = open('Result_output/output100.csv', 'w')       # Print as file #
     i=0
-    performance_compare = 0
+    performance_compare1 = 0
+    performance_compare2 = 0
     ssh_gap_compare1 = 0.0
     ssh_gap_compare2 = 0.0
     false_compare = 1.0
@@ -410,14 +410,14 @@ if __name__ == '__main__':
         false_rate = h1[2]
         false_positive_rate = h1[3]
 
-        if hybrid_compare_accuracy1 >= performance_compare:   ## total row accuracy  SSH in Hybrid Model
-            performance_compare = hybrid_compare_accuracy1
+        if hybrid_compare_accuracy1 >= performance_compare1:   ## total row accuracy  SSH in Hybrid Model
+            performance_compare1 = hybrid_compare_accuracy1
             case_max_row_rate = i
             d_name = 'Result_Best_Row_Accuracy'
             Decision_TREE_Visual(dtree4, d_name)
             result_pred_write(y_compare, label_rf100, label_rf1000, label_dt4, label_dt5, label_hybrid1, label_hybrid2, N_compare, d_name)
-        if h1[0] >= performance_compare:  ## Largest IP:Port Detection rate in Hybrid Model
-            performance_compare = h1[0]
+        if h1[0] >= performance_compare2:  ## Largest IP:Port Detection rate in Hybrid Model
+            performance_compare2 = h1[0]
             case_max_IP_port_rate = i
             d_name = 'Result_Best_IP_Port_Accuracy'
             Decision_TREE_Visual(dtree4, d_name)
@@ -478,4 +478,3 @@ if __name__ == '__main__':
           "\n                                    Decision Tree:", sum_false_positive_DT / i,
           "\n                                    Hybrid:", sum_false_positive_HB / i)
     sys.stdout = sys.__stdout__  # End of stdout
-
