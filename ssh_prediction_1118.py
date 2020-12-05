@@ -1,12 +1,3 @@
-## Last Edit : 22:21 10.APR.2020 ##
-
-## test dataset에 대한 evaluation 진행
-## test dataset을 evaluation으로 적용
-## test dataset은 predicttion model에서 선정
-## x_compare에 목적지 IP, 포트 매핑 필요
-## 추가 정보 매핑은
-
-
 import pandas as pd
 from IPython.display import display
 import numpy as np
@@ -38,8 +29,6 @@ def hybrid_detection(x_test, y_test, n_test, y_pred_rf, y_pred_dtree):
                 a_temp.append('ssh')
         else:
             a_temp.append(y_pred_rf[n])
-        ## 처음부터 현재까지 돌면서 같은 IP, Port가 SSH가 있으면 전부 SSH로 변경
-        ## SSH 정해지면 같은 IP:Port는 모두 SSH로 변
         n = n + 1
     y_pred_hybrid = pd.DataFrame(a_temp, columns=['Label'])
     y_pred_hybrid["IP:Port"] = n_test["destination.ip"] + ":" + n_test["cs.uri.port"].map(str)
