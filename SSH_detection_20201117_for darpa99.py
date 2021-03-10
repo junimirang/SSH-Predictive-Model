@@ -88,7 +88,7 @@ def loading_dataset(): ## After loading csv file, Pandas Data Frameset Generatio
     # log_count_total_connect  avg_count_connect  log_avg_count_connect  transmit_speed_BPS
     # log_transmit_speed_BPS   LABEL
 
-    df = pd.read_csv('Flow2Session/df_training_20201110.csv', index_col=0)
+    df = pd.read_csv('Flow2Session/df_training_20210310.csv', index_col=0)
     df_compare = pd.read_csv('Flow2Session/df_compare_20201110.csv', index_col=0)
 
     X = df[["log_count_total_connect", "log_cs_byte", "log_transmit_speed_BPS","log_count_connect_IP", "log_avg_count_connect", "Business.time"]]
