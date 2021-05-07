@@ -177,6 +177,7 @@ def SSH_prediction_model(dataset_training, dataset_test, i):
     ## Test(Evaluation) Data Prediction ##
     x_test = dataset_test[['PC', 'No_url', 'Ratio_trans_receive_(Normal)', 'Browse_time_(Normal)']]
     y_test = dataset_test[['Label']]
+    z_test = dataset_test[['No_url']]
     N_test = dataset_test[["Destination", "Destination Port"]]
 
     y_test_predict_rf = forest100.predict(x_test)
@@ -185,14 +186,14 @@ def SSH_prediction_model(dataset_training, dataset_test, i):
     test_label_dt4 = pd.DataFrame(y_test_predict_dt)
     test_hybrid_accuracy1, test_label_hybrid1 = hybrid_detection(x_test, y_test, N_test, y_test_predict_rf, y_test_predict_dt)
 
-    print(i,",",'Evaluation Accuracy Rate of Test DATA(RF):', ",", metrics.accuracy_score(y_test, test_label_rf100))
-    print(i,",",'Evaluation Accuracy Rate of Test DATA(DT):', ",", metrics.accuracy_score(y_test, test_label_dt4))
-    print(i,",",'Evaluation Accuracy Rate of Test DATA(Hybrid):', ",", metrics.accuracy_score(y_test, test_label_hybrid1))
+    print(i,",",'Test Accuracy Rate of Test DATA(RF):', ",", metrics.accuracy_score(y_test, test_label_rf100))
+    print(i,",",'Test Accuracy Rate of Test DATA(DT):', ",", metrics.accuracy_score(y_test, test_label_dt4))
+    print(i,",",'Test Accuracy Rate of Test DATA(Hybrid):', ",", metrics.accuracy_score(y_test, test_label_hybrid1))
 
-    return y_test, N_test, i, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1, test_hybrid_accuracy1, dtree4
+    return x_test, y_test, z_test, N_test, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1, test_hybrid_accuracy1, dtree4
 
 
-def result_pred_output(y_test, N_test, i, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1):
+def result_pred_output(y_test, z_test, N_test, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1):
 
     #Training Dataset
     y_sample_test_pred_total = pd.DataFrame(y_sample_test, columns=["Label"])
@@ -203,14 +204,14 @@ def result_pred_output(y_test, N_test, i, y_sample_test, y_sample_test_pred_rf10
     #x_test를 evaluation dataset으로 사용하기 위해 임시 N_compare 생성
     z_sample_test = z_sample_test.reset_index()
     del z_sample_test["index"]
-    n_sample_test["no_url"] = z_sample_test
+    n_sample_test["No_url"] = z_sample_test
 
     y_sample_test_pred_total = y_sample_test_pred_total.join(n_sample_test)
     y_sample_test_pred_total.to_csv("Result_output/result_training(sample_test).csv", mode='w')
 
-    y_sample_test_pred_pivot_rf100 = y_sample_test_pred_total.pivot_table('no_url', ['Destination', 'Destination Port', 'Label'], ['Label_RF100'], aggfunc="count")
-    y_sample_test_pred_pivot_dt4 = y_sample_test_pred_total.pivot_table('no_url', ['Destination', 'Destination Port', 'Label'], ['Label_DT4'], aggfunc="count")
-    y_sample_test_pred_pivot_hybrid1 = y_sample_test_pred_total.pivot_table('no_url', ['Destination', 'Destination Port', 'Label'], ['Label_HYBRID_100_4'], aggfunc="count")
+    y_sample_test_pred_pivot_rf100 = y_sample_test_pred_total.pivot_table('No_url', ['Destination', 'Destination Port', 'Label'], ['Label_RF100'], aggfunc="count")
+    y_sample_test_pred_pivot_dt4 = y_sample_test_pred_total.pivot_table('No_url', ['Destination', 'Destination Port', 'Label'], ['Label_DT4'], aggfunc="count")
+    y_sample_test_pred_pivot_hybrid1 = y_sample_test_pred_total.pivot_table('No_url', ['Destination', 'Destination Port', 'Label'], ['Label_HYBRID_100_4'], aggfunc="count")
 
     r0 = ssh_count(y_sample_test_pred_pivot_rf100)  #r1[0] : SSH Detection rate of RF, r1[1] : Total Detection rate of RF, r1[2] : False rate of RF
     d0 = ssh_count(y_sample_test_pred_pivot_dt4)    #d1[0] : SSH Detection rate of DT, d1[1] : Total Detection rate of DT,  d1[2] : False rate of DT
@@ -229,50 +230,52 @@ def result_pred_output(y_test, N_test, i, y_sample_test, y_sample_test_pred_rf10
     print(i,',', "Training/Validation Dataset False Positive Rate of total detection(Hybrid):", ',', h0[3])
     print(i,',', "Training/Validation Dataset True Positive Gap of SSH_detection Rate(Hybrid-RF):",',', h0[0]-r0[0]) ## Hybrid? Random Forest? SSH ??? ??
 
-    #Test(Evaluation) Dataset
+    # Evaluation test Dataset
     y_test_pred_total = pd.DataFrame(y_test, columns=["Label"])
     y_test_pred_total['Label_RF100'] = test_label_rf100
     y_test_pred_total['Label_DT4'] = test_label_dt4
     y_test_pred_total['Label_HYBRID_100_4'] = test_label_hybrid1
-
+    y_test_pred_total = y_test_pred_total.join(z_test)
     y_test_pred_total = y_test_pred_total.join(N_test)
     y_test_pred_total.to_csv("Result_output/result_test.csv", mode='w')
 
-    y_test_pred_pivot_rf100 = y_test_pred_total.pivot_table('no_url', ['Destination', 'Destination Port', 'Label'], ['Label_RF100'], aggfunc="count")
-    y_test_pred_pivot_dt4 = y_test_pred_total.pivot_table('no_url', ['Destination', 'Destination Port', 'Label'], ['Label_DT4'], aggfunc="count")
-    y_test_pred_pivot_hybrid1 = y_test_pred_total.pivot_table('no_url', ['Destination', 'Destination Port', 'Label'], ['Label_HYBRID_100_4'], aggfunc="count")
+    y_test_pred_pivot_rf100 = y_test_pred_total.pivot_table('No_url', ['Destination', 'Destination Port', 'Label'], ['Label_RF100'], aggfunc="count")
+    y_test_pred_pivot_dt4 = y_test_pred_total.pivot_table('No_url', ['Destination', 'Destination Port', 'Label'], ['Label_DT4'], aggfunc="count")
+    y_test_pred_pivot_hybrid1 = y_test_pred_total.pivot_table('No_url', ['Destination', 'Destination Port', 'Label'], ['Label_HYBRID_100_4'], aggfunc="count")
 
     r1 = ssh_count(y_test_pred_pivot_rf100)  #r1[0] : SSH Detection rate of RF, r1[1] : Total Detection rate of RF, r1[2] : False rate of RF
     d1 = ssh_count(y_test_pred_pivot_dt4)    #d1[0] : SSH Detection rate of DT, d1[1] : Total Detection rate of DT,  d1[2] : False rate of DT
     h1 = ssh_count(y_test_pred_pivot_hybrid1)    #h1[0] : SSH Detection rate of Hybrid, h1[1] : Total Detection rate of Hybrid,  h1[2] : False rate of Hybrid
-    print(i,',', "Evaluation(Test) Total Detection Rate(RF):",',', r1[1])
-    print(i,',', "Evaluation(Test) Total Detection Rate(DT):", ',', d1[1])
-    print(i,',', "Evaluation(Test) Total Detection Rate(Hybrid):",',', h1[1])
-    print(i,',', "Evaluation(Test) SSH Precision(RF):",',', r1[5])
-    print(i,',', "Evaluation(Test) SSH Precision(DT):", ',', d1[5])
-    print(i,',', "Evaluation(Test) SSH Precision(Hybrid):",',', h1[5])
-    print(i,',', "Evaluation(Test) SSH Recall(RF):",',', r1[6])
-    print(i,',', "Evaluation(Test) SSH Recall(DT):", ',', d1[6])
-    print(i,',', "Evaluation(Test) SSH Recall(Hybrid):",',', h1[6])
-    print(i,',', "Evaluation(Test) False Positive Rate of total detection(RF):", ',', r1[3])
-    print(i,',', "Evaluation(Test) False Positive Rate of total detection(DT):", ',', d1[3])
-    print(i,',', "Evaluation(Test) False Positive Rate of total detection(Hybrid):", ',', h1[3])
-    print(i,',', "Evaluation(Test) True Positive Gap of SSH_detection Rate(Hybrid-RF):",',', h1[0]-r1[0]) ## Hybrid? Rndom Forest? SSH ??? ??
+    print(i,',', "Evaluation Test Total Detection Rate(RF):",',', r1[1])
+    print(i,',', "Evaluation Test Total Detection Rate(DT):", ',', d1[1])
+    print(i,',', "Evaluation Test Total Detection Rate(Hybrid):",',', h1[1])
+    print(i,',', "Evaluation Test SSH Precision(RF):",',', r1[5])
+    print(i,',', "Evaluation Test SSH Precision(DT):", ',', d1[5])
+    print(i,',', "Evaluation Test SSH Precision(Hybrid):",',', h1[5])
+    print(i,',', "Evaluation Test SSH Recall(RF):",',', r1[6])
+    print(i,',', "Evaluation Test SSH Recall(DT):", ',', d1[6])
+    print(i,',', "Evaluation Test SSH Recall(Hybrid):",',', h1[6])
+    print(i,',', "Evaluation Test False Positive Rate of total detection(RF):", ',', r1[3])
+    print(i,',', "Evaluation Test False Positive Rate of total detection(DT):", ',', d1[3])
+    print(i,',', "Evaluation Test False Positive Rate of total detection(Hybrid):", ',', h1[3])
+    print(i,',', "Evaluation Test True Positive Gap of SSH_detection Rate(Hybrid-RF):",',', h1[0]-r1[0]) ## Hybrid? Rndom Forest? SSH ??? ??
+
     return r1, d1, h1
 
-def result_pred_write(y_test, label_rf100, label_dt4, label_hybrid1, N_test, d_name):
+def result_pred_write(y_test, z_test, label_rf100, label_dt4, label_hybrid1, N_test, d_name):
     # Saving the prediction data with cases#
     y_pred_total = pd.DataFrame(y_test, columns=["Label"])
     y_pred_total['Label_RF100'] = label_rf100
     y_pred_total['Label_DT4'] = label_dt4
     y_pred_total['Label_HYBRID_100_4'] = label_hybrid1
+    y_pred_total = y_pred_total.join(z_test)
     y_pred_total = y_pred_total.join(N_test)
     y_pred_total.to_csv(d_name+'/'+"row_result_compare.csv", mode='w')
 
 
-    y_pred_pivot_rf100 = y_pred_total.pivot_table('no_url', ['Destination', 'Destination Port', 'Label'], ['Label_RF100'], aggfunc="count")
-    y_pred_pivot_dt4 = y_pred_total.pivot_table('no_url', ['Destination', 'Destination Port', 'Label'], ['Label_DT4'], aggfunc="count")
-    y_pred_pivot_hybrid1 = y_pred_total.pivot_table('no_url', ['Destination', 'Destination Port', 'Label'], ['Label_HYBRID_100_4'], aggfunc="count")
+    y_pred_pivot_rf100 = y_pred_total.pivot_table('No_url', ['Destination', 'Destination Port', 'Label'], ['Label_RF100'], aggfunc="count")
+    y_pred_pivot_dt4 = y_pred_total.pivot_table('No_url', ['Destination', 'Destination Port', 'Label'], ['Label_DT4'], aggfunc="count")
+    y_pred_pivot_hybrid1 = y_pred_total.pivot_table('No_url', ['Destination', 'Destination Port', 'Label'], ['Label_HYBRID_100_4'], aggfunc="count")
 
     y_pred_pivot_rf100.to_csv(d_name+'/'+"pivot_rf100.csv", mode='w')
     y_pred_pivot_dt4.to_csv(d_name+'/'+"pivot_dt4.csv", mode='w')
@@ -321,8 +324,8 @@ if __name__ == '__main__':
     pd.set_option('display.max_columns', 20)   # Maximum columns for print
     pd.set_option('display.width', 20)         # Maximum witch for print
     np.set_printoptions(threshold=100000)
-    X_training, K_training, L_training, Z_training, Y_trainng, N_training, X_test, K_test, L_test, Z_test, Y_test, N_test = loading_dataset()
-    dataset_training, dataset_test, dataset_training_PCA = PCA(X_training, K_training, L_training, Z_training, Y_trainng, N_training, X_test, K_test, L_test, Z_test, Y_test, N_test)
+    X_training, K_training, L_training, Z_training, Y_training, N_training, X_test, K_test, L_test, Z_test, Y_test, N_test = loading_dataset()
+    dataset_training, dataset_test, dataset_training_PCA = PCA(X_training, K_training, L_training, Z_training, Y_training, N_training, X_test, K_test, L_test, Z_test, Y_test, N_test)
     sys.stdout = open('Result_output/output100.csv', 'w')       # Print as file #
     i=0
     performance_compare1 = 0
@@ -344,8 +347,8 @@ if __name__ == '__main__':
     while i<100:  ## Repeating N times for Predictive model approval
         i=i+1
         #print("This sequence is;",i)
-        y_test, N_test, i, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1, test_hybrid_accuracy1, dtree4 = SSH_prediction_model(dataset_training, dataset_test, i)
-        r1, d1, h1 = result_pred_output(y_test, N_test, i, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1)
+        x_test, y_test, z_test, N_test, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1, test_hybrid_accuracy1, dtree4 = SSH_prediction_model(dataset_training, dataset_test, i)
+        r1, d1, h1 = result_pred_output(y_test, z_test, N_test, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1)
         ssh_gap = h1[0] - r1[0]
         RF_DT_gap = d1[0] - r1[0]  # RF - DT 간 편차가 새로운 탐지율에 미치는 영향
         false_rate = h1[2]
@@ -356,31 +359,31 @@ if __name__ == '__main__':
             case_max_row_rate = i
             d_name = 'Result_Best_Row_Accuracy'
             Decision_TREE_Visual(dtree4, d_name)
-            result_pred_write(y_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name)
+            result_pred_write(y_test, z_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name)
         if h1[0] >= performance_compare2:  ## Largest IP:Port Detection rate in Hybrid Model
             performance_compare2 = h1[0]
             case_max_IP_port_rate = i
             d_name = 'Result_Best_IP_Port_Accuracy'
             Decision_TREE_Visual(dtree4, d_name)
-            result_pred_write(y_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name)
+            result_pred_write(y_test, z_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name)
         if false_positive_rate <= false_compare:  ## Lowest false_positive rate in Hybrid Model
             false_compare = false_positive_rate
             case_minimum_False_rate = i
             d_name = 'Result_Lowest_ssh_False_Positive_rate'
             Decision_TREE_Visual(dtree4, d_name)
-            result_pred_write(y_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name)
+            result_pred_write(y_test, z_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name)
         if ssh_gap >= ssh_gap_compare1:   ## Largest gap of Detection rate between Hybrid and random forest
             ssh_gap_compare1 = ssh_gap
             case_max_gap_Hybrid_RF = i
             d_name = 'Result_Largest_ssh_gap(Hybrid-RF)'
             Decision_TREE_Visual(dtree4, d_name)
-            result_pred_write(y_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name
+            result_pred_write(y_test, z_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name)
         if RF_DT_gap >= ssh_gap_compare2: ## Largest gap of Detection rate between random forest and decision tree
             ssh_gap_compare2 = RF_DT_gap
             case_max_gap_RF_DT = i
             d_name = 'Result_Largest_ssh_gap(RF-DT)'
             Decision_TREE_Visual(dtree4, d_name)
-            result_pred_write(y_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name)
+            result_pred_write(y_test, z_test, test_label_rf100, test_label_dt4, test_label_hybrid1, N_test, d_name)
 
 
         sum_SSH_Detection_RF = sum_SSH_Detection_RF + r1[0]
