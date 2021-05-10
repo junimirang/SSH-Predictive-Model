@@ -1,4 +1,4 @@
-## Last Edit : 7.MAY.2021 ##
+## Last Edit : 9.MAY.2021 ##
 
 ## test dataset에 대한 evaluation 진행
 ## test dataset을 evaluation으로 적용
@@ -23,6 +23,31 @@ from sklearn.tree import export_graphviz
 import sys
 
 
+def loading_dataset(): ## After loading csv file, Pandas Data Frameset Generation ##
+    # time.taken   c.ip   response.code  response.type  sc.byte    cs.byte    method URI    cs.host    Destination Port
+    # cs_user_agent    sc_filter_result   category   Destination isp    region no_url
+    # ratio_trans_receive  count_total_connect    count_connect_IP
+    # log_time_taken   log_cs_byte    log_ratio_trans_receive    log_count_connect_IP
+    # log_count_total_connect  avg_count_connect  log_avg_count_connect  transmit_speed_BPS
+    # log_transmit_speed_BPS   LABEL
+
+    df = pd.read_csv('training_week1.csv', index_col=0)
+    df_test = pd.read_csv('test_week3.csv', index_col=0)
+
+    X_training = df[["log_count_total_connect", "log_cs_byte", "log_transmit_speed_BPS","log_count_connect_IP", "log_avg_count_connect", "Business.time"]]
+    Y_training = df[["LABEL"]]
+    Z_training = df[["log_time_taken"]]
+    K_training = df[["no_url"]]
+    L_training = df[["log_ratio_trans_receive"]]
+    N_training = df[["Destination", "Destination Port", "no_url"]]
+
+    X_test = df_test[["log_count_total_connect", "log_cs_byte", "log_transmit_speed_BPS", "log_count_connect_IP", "log_avg_count_connect", "Business.time"]]
+    Y_test = df_test[["LABEL"]]
+    Z_test = df_test[["log_time_taken"]]
+    K_test = df_test[["no_url"]]
+    L_test = df_test[["log_ratio_trans_receive"]]
+    N_test = df_test[["Destination", "Destination Port", "no_url"]]
+    return(X_training, K_training, L_training, Z_training, Y_training, N_training, X_test, K_test, L_test, Z_test, Y_test, N_test)
 
 ## Hybrid Detection Model Function ##
 def hybrid_detection(x, y, n_test, y_pred_rf, y_pred_dtree):
@@ -72,32 +97,6 @@ def Decision_TREE_Visual(dtree, d_name):
         dot_graph = f.read()
         g= graphviz.Source(dot_graph)
         g.render(d_name+'/'+"dtree.png", view=False)
-
-def loading_dataset(): ## After loading csv file, Pandas Data Frameset Generation ##
-    # time.taken   c.ip   response.code  response.type  sc.byte    cs.byte    method URI    cs.host    Destination Port
-    # cs_user_agent    sc_filter_result   category   Destination isp    region no_url
-    # ratio_trans_receive  count_total_connect    count_connect_IP
-    # log_time_taken   log_cs_byte    log_ratio_trans_receive    log_count_connect_IP
-    # log_count_total_connect  avg_count_connect  log_avg_count_connect  transmit_speed_BPS
-    # log_transmit_speed_BPS   LABEL
-
-    df = pd.read_csv('darpa99_training.csv', index_col=0)
-    df_compare = pd.read_csv('darpa99_test.csv', index_col=0)
-
-    X_training = df[["log_count_total_connect", "log_cs_byte", "log_transmit_speed_BPS","log_count_connect_IP", "log_avg_count_connect", "Business.time"]]
-    Y_training = df[["LABEL"]]
-    Z_training = df[["log_time_taken"]]
-    K_training = df[["no_url"]]
-    L_training = df[["log_ratio_trans_receive"]]
-    N_training = df[["Destination", "Destination Port", "no_url"]]
-
-    X_test = df_compare[["log_count_total_connect", "log_cs_byte", "log_transmit_speed_BPS", "log_count_connect_IP", "log_avg_count_connect", "Business.time"]]
-    Y_test = df_compare[["LABEL"]]
-    Z_test = df_compare[["log_time_taken"]]
-    K_test = df_compare[["no_url"]]
-    L_test = df_compare[["log_ratio_trans_receive"]]
-    N_test = df_compare[["Destination", "Destination Port", "no_url"]]
-    return(X_training, K_training, L_training, Z_training, Y_training, N_training, X_test, K_test, L_test, Z_test, Y_test, N_test)
 
 
 def PCA(X_training, K_training, L_training, Z_training, Y_training, N_training, X_test, K_test, L_test, Z_test, Y_test, N_test):
@@ -350,7 +349,7 @@ if __name__ == '__main__':
         x_test, y_test, z_test, N_test, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1, test_hybrid_accuracy1, dtree4 = SSH_prediction_model(dataset_training, dataset_test, i)
         r1, d1, h1 = result_pred_output(y_test, z_test, N_test, y_sample_test, y_sample_test_pred_rf100, y_sample_test_pred_dtree4, y_sample_test_pred_hybrid1, z_sample_test, n_sample_test, test_label_rf100, test_label_dt4, test_label_hybrid1)
         ssh_gap = h1[0] - r1[0]
-        RF_DT_gap = d1[0] - r1[0]  # RF - DT 간 편차가 새로운 탐지율에 미치는 영향
+        RF_DT_gap = abs(d1[0] - r1[0])  # RF - DT 간 편차가 새로운 탐지율에 미치는 영향
         false_rate = h1[2]
         false_positive_rate = h1[3]
 
