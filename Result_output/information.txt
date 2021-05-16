@@ -1,17 +1,17 @@
-maximum row detection case : 79
+maximum row detection case : 47
 maximum IP_port detection case : 100
-minimum False rate detection case : 92
-Detection gap between Decision Tree and Random Forest : 98
-Largest detection gap between Hybrid and Random Forest : 98
+minimum False rate detection case : 47
+Detection gap between Decision Tree and Random Forest : 100
+Largest detection gap between Hybrid and Random Forest : 100
 AVG Total Detection (based IP_port) >>> 
-                                    RandomForest: 0.9922631578947376 
-                                    Decision Tree: 0.984184210526317 
-                                    Hybrid: 0.9833815789473682
+                                    RandomForest: 0.9955524019762428 
+                                    Decision Tree: 0.9895826763376434 
+                                    Hybrid: 0.9892599600546619
 AVG SSH Detection (based IP_port)   >>> 
-                                    RandomForest: 0.9947619047619044 
-                                    Decision Tree: 0.9042857142857135 
-                                    Hybrid: 0.9976190476190474
+                                    RandomForest: 0.8811999999999994 
+                                    Decision Tree: 0.9888000000000001 
+                                    Hybrid: 1.0
 False Positive Rate (based IP_port) >>> 
-                                    RandomForest: 0.007807848443843034 
-                                    Decision Tree: 0.013545331529093353 
-                                    Hybrid: 0.017023004059539926
+                                    RandomForest: 0.004146290050590218 
+                                    Decision Tree: 0.010415261382799322 
+                                    Hybrid: 0.010768338954468796
